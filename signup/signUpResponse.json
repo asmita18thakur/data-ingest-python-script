@@ -1,0 +1,117 @@
+[
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    "{\"timestamp\":1693158946565,\"origin\":\"iam-service\",\"errorCode\":5001,\"errorMessage\":\"Query { \\\"$java\\\" : Query: { \\\"email\\\" : \\\"Salesforce@gatestautomation.com\\\", \\\"provider\\\" : null }, Fields: { }, Sort: { } } returned non unique result.\",\"status\":\"INTERNAL_SERVER_ERROR\"}",
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    "{\"timestamp\":1693158958849,\"origin\":\"iam-service\",\"errorCode\":5001,\"errorMessage\":\"Query { \\\"$java\\\" : Query: { \\\"email\\\" : \\\"IBM@gatestautomation.com\\\", \\\"provider\\\" : null }, Fields: { }, Sort: { } } returned non unique result.\",\"status\":\"INTERNAL_SERVER_ERROR\"}",
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    "{\"timestamp\":1693158961308,\"origin\":\"iam-service\",\"errorCode\":5001,\"errorMessage\":\"Query { \\\"$java\\\" : Query: { \\\"email\\\" : \\\"Spotify@gatestautomation.com\\\", \\\"provider\\\" : null }, Fields: { }, Sort: { } } returned non unique result.\",\"status\":\"INTERNAL_SERVER_ERROR\"}",
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    "{\"timestamp\":1693158967251,\"origin\":\"iam-service\",\"errorCode\":5001,\"errorMessage\":\"Query { \\\"$java\\\" : Query: { \\\"email\\\" : \\\"Google@gatestautomation.com\\\", \\\"provider\\\" : null }, Fields: { }, Sort: { } } returned non unique result.\",\"status\":\"INTERNAL_SERVER_ERROR\"}",
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    },
+    {
+        "msg": "Verify your email address. We just sent an OTP to your email address."
+    }
+]
