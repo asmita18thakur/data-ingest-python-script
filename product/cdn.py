@@ -46,7 +46,7 @@ def upload_image(file_path, file_name, headers, boundary):
 
 def main():
     # Set the folder path containing the images
-    folder_path = 'Images/'
+    folder_path = 'logourl/'
 
     # Specify the boundary for multipart/form-data
     boundary = 'wL36Yn8afVp8Ag7AmP8qZ0SA4n1v9T'
@@ -87,7 +87,7 @@ def main():
         image_data_dict[filename] = cdn_url
 
     # Write the dictionary to a JSON file
-    json_file_path = 'output.json'
+    json_file_path = 'logoCDN.json'
     with open(json_file_path, 'w') as json_file:
         json.dump(image_data_dict, json_file, indent=2)
 
