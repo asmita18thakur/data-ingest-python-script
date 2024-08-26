@@ -2,7 +2,7 @@ import json
 import requests
 import pandas as pd
 
-token = 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImZmOGYxNjhmLTNmZjYtNDZlMi1iMTJlLWE2YTdlN2Y2YTY5MCJ9.eyJwcm9maWxlVXJsIjoid3d3Lmdvb2dsZS5jb20vbWVyYV9waWMvYXZpbmFzaC5wbmciLCJyZWNlbnRfc2Vzc2lvbiI6Ik5BIiwic3ViIjoiZ2FpYW4uY29tIiwicGFyZW50VGVuYW50SWQiOiJOQSIsImNvbG9yIjoicmVkIiwidXNlcl9uYW1lIjoidGVuYW50MTBAZ2F0ZXN0YXV0b21hdGlvbi5jb20iLCJpc3MiOiJnYWlhbi5jb20iLCJpc0FkbWluIjp0cnVlLCJwbGF0Zm9ybUlkIjoiNjA0Nzg5ZWI0MmI3ZGMwMDAxN2E4MzQxIiwidXNlck5hbWUiOiJ0ZW5hbnQxMEBnYXRlc3RhdXRvbWF0aW9uLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfQ09OU1VNRVJfRkFDRUJPT0siLCJST0xFX01YX09QRVJBVE9SIl0sImNsaWVudF9pZCI6ImdhaWFuIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwidGVuYW50SWQiOiI2NGUxY2IzOTFmNmQ3ZjAwMDE2MWZiM2EiLCJsb2dvIjpudWxsLCJleHAiOjE2OTMxODgyODksImp0aSI6Ijc2ZWI0OGUxLWEwMTEtNDdkYS1iZDc0LTEyNTA3ZGU1OGIwZSIsImVtYWlsIjoidGVuYW50MTBAZ2F0ZXN0YXV0b21hdGlvbi5jb20ifQ.DlqEU8v045xoT6JNKeNoo2LOwb7L_RJT9XTb72gP_iEeIncG4EPlOBe78LuP1tbUO-WWjjYHKjQC7XU-r38-rTvMLVDrfuK8K9Jo4HenT-x9sxOee7nAq2h2RcTFWOxgtphIell37jGUZD5Hbl67o0UmgxxEEN7z6ccyS9E9WvSfwv5zMCmQi1v6dfknWc-4JDxXqTjsFA2RBZOBXTXMuWWMU8SqQct0tS9l6qMSArPH7bPiT-hZ5dX84x-LNBozaFkXe8DPOCKhXeoA9Sh7ntGkPpetp-R0VDX9npe6Huk_ZlAurl2tVoDBOUWJRUDbBk3SUxFykm_3guV6yO21TQ'
+token = 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3Ny1NUVdFRTNHZE5adGlsWU5IYmpsa2dVSkpaWUJWVmN1UmFZdHl5ejFjIn0.eyJleHAiOjE3MjMyNDI1ODQsImlhdCI6MTcyMzIwNjU4NCwianRpIjoiNjcxYWQ5NmQtNGExNC00N2MyLTlmZmUtMmM0NjNkZmU0MzA1IiwiaXNzIjoiaHR0cDovL2tleWNsb2FrLmtleWNsb2FrLnN2Yy5jbHVzdGVyLmxvY2FsOjgwODAvcmVhbG1zL21hc3RlciIsImF1ZCI6WyJCT0xUWk1BTk5fQk9UIiwiUEFTQ0FMX0lOVEVMTElHRU5DRSIsIk1PTkVUIiwiYWNjb3VudCIsIlZJTkNJIl0sInN1YiI6IjMwMzdkZjZiLWE0YTUtNDE1Ni1hMTI4LWQwZTdkYTM5YzA3OCIsInR5cCI6IkJlYXJlciIsImF6cCI6IkhPTEFDUkFDWSIsInNlc3Npb25fc3RhdGUiOiIxZjQzYjBhOS03MDU2LTRiMGEtODUxZC0yMjg2NzY1YWJlMTgiLCJuYW1lIjoibW9iaXVzIG1vYml1cyIsImdpdmVuX25hbWUiOiJtb2JpdXMiLCJmYW1pbHlfbmFtZSI6Im1vYml1cyIsInByZWZlcnJlZF91c2VybmFtZSI6InBhc3N3b3JkX3RlbmFudF9tb2JpdXNAbW9iaXVzZHRhYXMuYWkiLCJlbWFpbCI6InBhc3N3b3JkX3RlbmFudF9tb2JpdXNAbW9iaXVzZHRhYXMuYWkiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIvKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tYXN0ZXIiLCJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiQk9MVFpNQU5OX0JPVCI6eyJyb2xlcyI6WyJCT0xUWk1BTk5fQk9UX1VTRVIiXX0sIlBBU0NBTF9JTlRFTExJR0VOQ0UiOnsicm9sZXMiOlsiUEFTQ0FMX0lOVEVMTElHRU5DRV9VU0VSIiwiUEFTQ0FMX0lOVEVMTElHRU5DRV9BRE1JTiJdfSwiTU9ORVQiOnsicm9sZXMiOlsiTU9ORVRfVVNFUiJdfSwiSE9MQUNSQUNZIjp7InJvbGVzIjpbIlNVUEVSQURNSU4iLCJIT0xBQ1JBQ1lfVVNFUiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19LCJWSU5DSSI6eyJyb2xlcyI6WyJWSU5DSV9VU0VSIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwic2lkIjoiMWY0M2IwYTktNzA1Ni00YjBhLTg1MWQtMjI4Njc2NWFiZTE4IiwidGVuYW50SWQiOiIzMDM3ZGY2Yi1hNGE1LTQxNTYtYTEyOC1kMGU3ZGEzOWMwNzgifQ==.MNFu9g1tqyiNr3-4tHPFeOjlNdmhNkbgM3JVEpqBGXzlbjHlrAw0xXLESdq6Y7-ncP06mxKCY53NevQIt5HTcRQTaT6fMoIwPHUSlKAM-R7tZjTK-AoY9YRAdvdsQoQF3WpJd5A0JYVxyOXaIYtcuoD8EKGZfV2e-4kbeYG8wKbMPOMj84ejRAcR9PYnMNOZi0xb8KPsF-AS-EKjQSJXoKh1F4FU9Uh_FS-Z7YlrtGyfTsTYoj-AhmoNBxH-sFWSZGQ8hgoX0WKt8BDsYWnAl98g_5dgEPS59kGl0iPvZgZ6k_IZy04If-yvSaIf45y2tXyqbKPgAjlGtu6h14ZvAw'
 
 
 # Load payloads from test.json
@@ -14,7 +14,8 @@ df = pd.read_excel('otpPayload.xlsx')
 
 
 # API endpoint
-url = 'https://ig.aidtaas.com/iam-service/v1.0/tenants/otp-verification'
+# url = 'https://ig.aidtaas.com/iam-service/v1.0/tenants/otp-verification'
+url = 'https://ig.gov-cloud.ai/mobius-iam-service/v1.0/emails/otp-verify'
 
 # Headers including Authorization token
 headers = {
@@ -28,6 +29,7 @@ otp_ids = []
 for payload in payloads:
     try:
         # Make a POST request
+        print(f'payload: {payload}')
         response = requests.post(url, json=payload, headers=headers)
         
         # Get the response status code and text
@@ -40,7 +42,7 @@ for payload in payloads:
                 # Try to parse the response as JSON
                 response_json = response.json()
                 responses.append(response_json)
-                otp_ids.append(response_json['tenantId'])
+                # otp_ids.append(response_json['tenantId'])
             except json.JSONDecodeError:
                 # If response is not valid JSON
                 responses.append(response_text)
@@ -65,7 +67,7 @@ with open('otpResponse.json', 'w') as responses_file:
 print("Responses saved successfully.")
 
 # Add 'AccountID' column to DataFrame
-df['TenantID'] = otp_ids
+# df['TenantID'] = otp_ids
 
 # Write updated DataFrame back to the same Excel file
 df.to_excel('otpPayload.xlsx', index=False)

@@ -6,13 +6,12 @@ token = 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImZmOGYxNjhmLTNmZjYt
 
 
 # # Load payloads from test.json
-with open('tenant.json', 'r') as json_file:
+with open('marketplaces.json', 'r') as json_file:
     payloads = json.load(json_file)
 
 
 # API endpoint
-# url = 'https://ig.aidtaas.com/market-place/v1.0/tenants'
-url = 'https://ig.gov-cloud.ai/hcy-web/v1.0/tenants'
+url = 'https://ig.gov-cloud.ai/hcy-web/v1.0/platforms'
 
 # Headers including Authorization token
 headers = {
@@ -24,7 +23,7 @@ responses = []
 
 # Iterate over each payload
 for payload in payloads:
-    print(payload)
+    # print(payload)
     try:
         # Make a POST request
         response = requests.post(url, json=payload, headers=headers)
@@ -56,7 +55,7 @@ for payload in payloads:
         print(f"Request failed: {e}")
 
 # Save responses to a file
-with open('tenantResponse.json', 'w') as responses_file:
+with open('platformResponse.json', 'w') as responses_file:
     json.dump(responses, responses_file, indent=4)
 
 print("Responses saved successfully.")

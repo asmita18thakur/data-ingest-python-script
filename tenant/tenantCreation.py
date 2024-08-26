@@ -7,9 +7,8 @@ df = pd.read_excel('tenant.xlsx')
 # Convert to JSON
 json_data = []
 for index, row in df.iterrows():
-   
     data = {
-         "id": row['id'],
+        #  "id": row['id'],
          "countryCode": "+1",
          "description": " Tenant",
          "version": "v1.0",
@@ -49,9 +48,13 @@ for index, row in df.iterrows():
         row['platformDetails']: [
             "AP","TP","XP","CP","IP"
         ]
+    },
+    "userType": "TENANT"
+    
     }
-    }
+    
     json_data.append(data)
+    break
 
 # Write JSON data to a file
 output_filename = 'tenant.json'

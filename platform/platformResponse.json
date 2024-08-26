@@ -1,0 +1,101 @@
+[
+    {
+        "id": "66ca1e1bb1dbc9702f40475a",
+        "name": "Digicap",
+        "icon": "https://www.google.com/",
+        "title": "Google",
+        "description": "A startup focused on developing quantum computing software.",
+        "currencies": [
+            "USD",
+            "EUR",
+            "GBP"
+        ],
+        "access": "PRIVATE",
+        "visibility": "PUBLIC",
+        "mxUrl": "digicapnewww.aidtaas.ai",
+        "ownerId": "3037df6b-a4a5-4156-a128-d0e7da39c078",
+        "platformMasterConfig": {
+            "mission": "Revolutionize computing with quantum technology.",
+            "vision": "To be the leading quantum software provider globally.",
+            "values": [
+                "Innovation",
+                " Collaboration",
+                " Integrity"
+            ],
+            "organisationLogo": "logo-quantumsoft.png",
+            "businessAddress": "123 Quantum Lane, Tech City",
+            "postalCode": "90001",
+            "city": "Los Angeles",
+            "state": "California",
+            "emailId": "info@quantumsoft.com",
+            "contactNumber": "45664653",
+            "cikKey": "545",
+            "crunchBaseUrl": "45646555",
+            "nationalBbbId": "4564565",
+            "regionalBbbId": "568765132",
+            "themeColourPrimary": "#FFFFF",
+            "themeColourSecondary": "#FFFFF",
+            "themeColourBackGround": "#FFFF",
+            "themeColourText": "#FFFF",
+            "themeIcons": "Flex Line",
+            "themeFontHeading": "Lato",
+            "themeFontBody": "Loto",
+            "allowPersonalisation": true,
+            "loginThemeColour": "#FFFF",
+            "loginImage": "https://media.licdn.com/dms/image/C510BAQGNxm-cQ3-WcA/company-logo_200_200/0/1569563107210?e=2147483647&v=beta&t=eVl9vEFsun42_l7ZPDS6BosDnK-XkdoeNG37K338lhY",
+            "errorThemeColour": "#FFFF",
+            "errorImage": "https://img.freepik.com/free-vector/glitch-error-404-page-background_23-2148072533.jpg",
+            "storeFrontThemeColour": "#FFFF",
+            "storeFrontImage": "abc",
+            "productThemeColour": "#FFFF",
+            "productImage": "abc",
+            "productListingType": "Compact",
+            "productListingBackground": "abc",
+            "allowNatureMarketPlace": true,
+            "allowMarketPlaceType": true,
+            "marketPlaceType": "Org Public",
+            "allowInvitesExpire": true,
+            "invitesExpire": "30Days",
+            "allowCommunicate": true,
+            "allowTenantToAdd": true,
+            "newParticipants": [
+                "XP only",
+                "More than 10 alliances"
+            ],
+            "allowTypeOfTenants": true,
+            "typeOfTenants": [
+                "All types"
+            ],
+            "requireCoolDown": true,
+            "coolDownPeriod": "1month",
+            "allowAllianceFormation": true,
+            "allianceOperatorApproval": [
+                "Always",
+                "Tenants <365days old"
+            ],
+            "requireApprovalExit": true,
+            "exitAlliance": [
+                "For ARR >300k USD",
+                "For ARR >100k USD"
+            ],
+            "dissolveAlliance": "Operator only"
+        },
+        "serpLocation": {},
+        "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+        "platformConfig": {},
+        "relationshipTypeToIds": {
+            "PARENT": {
+                "mobius Platform Default": "664afc3caf2dfa4e7eeda5db"
+            }
+        },
+        "relationshipTypeToCount": {
+            "SIBLINGS": 9,
+            "PARENT": 1
+        },
+        "childPlatform": {},
+        "geoLocation": [],
+        "userBehaviourContextIds": [],
+        "allianceBehaviourContextIds": [],
+        "active": true
+    }
+]

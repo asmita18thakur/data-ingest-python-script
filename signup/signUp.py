@@ -11,7 +11,8 @@ for index, row in df.iterrows():
     # nullData = 'null'
 
     data = {
-    "email":str(row['emailPrefix']).replace(" ", "").replace(".", "")+'@gatestautomation.com'
+    "email":str(row['emailPrefix']).replace(" ", "").replace(".", "")+'@gatestautomation.com',
+    "userType":"TENANT"
 }
     json_data.append(data)
 

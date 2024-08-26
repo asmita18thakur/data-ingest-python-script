@@ -1,112 +1,82 @@
 import pandas as pd
 import json
+import datetime
+
 
 # Load Excel data
-df = pd.read_excel('ratecard.xlsx')
+df = pd.read_excel('rate_card.xlsx')
 df.fillna("",inplace=True)
+
+# Get today's date in UNIX timestamp format
+today = datetime.datetime.now().timestamp()
+
+# Calculate 'validityTo' as 3 years from today
+three_years = datetime.timedelta(days=3*365)  # Consider 365 days per year for simplicity
+validity_to = (datetime.datetime.now() + three_years).timestamp()
 
 # Convert to JSON
 json_data = []
 for index, row in df.iterrows():
-    
+    # Generate a unique name and description for each payload
+    name = f"Ratecard_{row['name']}"
+    description = f"Ratecard description for {name}"
 
+    # Create the payload
     data = {
         "name": row['name'],
-        "primaryRateCardId": "64c2762b0975f4693387bb96",
-        "version": "v1.0",
+        "description": description,
         "platformId": row['platformId'],
         "rateCardType": row['rateCardType'],
         "paasFee": {
-            "description": "",
-            "fixedFee": row['paas'],
-            "type": "PAAS",
-            "queryId": "5555",
-            "multiplierField": "null",
-            "baseFee": 0.0,
-            "validityFrom": 1665413598.391,
-            "validityTo": 1731196800.0,
-            "unit": "MONTHS"
+            "fixedFee": row['paasFee_fixedFee'],
+            "baseFee": "0.0",
+            "validityFrom": today,
+            "validityTo": validity_to
         },
         "saasFee": {
-            "description": "",
-            "fixedFee": row['saas'],
-            "type": "SAAS",
-            "queryId": "55555",
-            "multiplierField": "null",
-            "baseFee": 0.0,
-            "validityFrom": 1665413598.391,
-            "validityTo": 1731196800.0,
-            "unit": "MONTHS"
+            "fixedFee": row['saasFee_fixedFee'],
+            "validityFrom": today,
+            "validityTo": validity_to
         },
         "apiCountFee": {
-            "description": "",
-            "fixedFee": row['apicount'],
-            "type": "COUNT",
-            "queryId": "5555",
-            "multiplierField": "null",
-            "baseFee": 70.0,
-            "validityFrom": 1646765091.204,
-            "validityTo": 1646765091.204,
-            "unit": "MINUTES"
+            "validityFrom": today,
+            "validityTo": validity_to,
+            "perApiFee": 122.5,
+            "apiLimit": 25,
+            "baseFee": 12
         },
-        "volCountFee": {
-            "description": "",
-            "fixedFee": row['volCount'],
-            "type": "VOLUME",
-            "queryId": "5555",
-            "multiplierField": "null",
-            "baseFee": 90.0,
-            "validityFrom": 1646765091.204,
-            "validityTo": 1646765091.204,
-            "unit": "MINUTES"
+        "dataVolumeFee": {
+            "validityFrom": today,
+            "validityTo": validity_to,
+            "perVolumeFee": 122.5,
+            "volumeLimit": 25,
+            "fixedFee": row['dataVolumeFee_fixedFee'],
+            "dataUnitType": "BYTE"
         },
-        "adFee": {
-            "description": "",
-            "fixedFee": row['Adfee'],
-            "type": "AD",
-            "queryId": "5555",
-            "multiplierField": "null",
-            "baseFee": 80.0,
-            "validityFrom": 1646765091.204,
-            "validityTo": 1646765091.204,
-            "unit": "MINUTES"
-        },
-        "adRevenueShare": {
-            "description": "",
-            "fixedShare": row['adRevenueShare'],
-            "revenueShareType": "AD",
-            "queryId": "55555",
-            "multiplierField": "null",
-            "baseShare": 0.0,
-            "eligibleForRoyalty": False
-        },
-        "consumerRevenueShare": {
-            "description": "",
-            "fixedShare": row['consumerRevenueShare'],
-            "revenueShareType": "AD",
-            "queryId": "5555",
-            "multiplierField": "null",
-            "baseShare": 0.0,
-            "eligibleForRoyalty": False
-        },
-        "dataSharable": True,
         "currency": "INR",
         "isActive": True,
-        "contextId": "5555",
-        "keywords": [],
+        "contextId": "Context_Id",  # You can replace this with actual context ID if available
         "billingCycleUnit": "MINUTES",
-        "billingCycle": 2,
+        "billingCycle": "2",
         "eligibleForRoyalty": True,
         "comment": "Comment Section.",
-        "defaultRateCard": False
+        "rateCardFor": "PRODUCT"
     }
 
-    json_data.append(json.dumps(data, indent=4))  # Convert dictionary to JSON string
+    # # Append the JSON string to the list
+    json_data.append(json.dumps(data, indent=4))
 
-# Add 'json' column to DataFrame
+    # Write JSON data to a file
+output_filename = 'ratecard.json'
+with open(output_filename, 'w') as json_file:
+    json.dump(json_data, json_file, indent=4)
+
+print(f"JSON data has been written to '{output_filename}'")
+
+# Add the JSON data to a new column in the DataFrame
 df['json'] = json_data
 
 # Write updated DataFrame back to the same Excel file
-df.to_excel('ratecard.xlsx', index=False)
+df.to_excel('rate_card.xlsx', index=False)
 
-print("JSON data has been added to the 'json' column in 'ratecard.xlsx'")
+print("JSON data has been added to the 'json' column in 'ratecards.xlsx'")
