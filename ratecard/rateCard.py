@@ -4,7 +4,7 @@ import datetime
 
 
 # Load Excel data
-df = pd.read_excel('ratecards.xlsx')
+df = pd.read_excel('rate_card.xlsx')
 df.fillna("",inplace=True)
 
 # Get today's date in UNIX timestamp format
@@ -28,13 +28,13 @@ for index, row in df.iterrows():
         "platformId": row['platformId'],
         "rateCardType": row['rateCardType'],
         "paasFee": {
-            "fixedFee": row['paas'],
+            "fixedFee": row['paasFee_fixedFee'],
             "baseFee": "0.0",
             "validityFrom": today,
             "validityTo": validity_to
         },
         "saasFee": {
-            "fixedFee": row['saas'],
+            "fixedFee": row['saasFee_fixedFee'],
             "validityFrom": today,
             "validityTo": validity_to
         },
@@ -50,7 +50,7 @@ for index, row in df.iterrows():
             "validityTo": validity_to,
             "perVolumeFee": 122.5,
             "volumeLimit": 25,
-            "fixedFee": row['volCount'],
+            "fixedFee": row['dataVolumeFee_fixedFee'],
             "dataUnitType": "BYTE"
         },
         "currency": "INR",
@@ -63,13 +63,20 @@ for index, row in df.iterrows():
         "rateCardFor": "PRODUCT"
     }
 
-    # Append the JSON string to the list
+    # # Append the JSON string to the list
     json_data.append(json.dumps(data, indent=4))
+
+    # Write JSON data to a file
+output_filename = 'ratecard.json'
+with open(output_filename, 'w') as json_file:
+    json.dump(json_data, json_file, indent=4)
+
+print(f"JSON data has been written to '{output_filename}'")
 
 # Add the JSON data to a new column in the DataFrame
 df['json'] = json_data
 
 # Write updated DataFrame back to the same Excel file
-df.to_excel('ratecards.xlsx', index=False)
+df.to_excel('rate_card.xlsx', index=False)
 
 print("JSON data has been added to the 'json' column in 'ratecards.xlsx'")

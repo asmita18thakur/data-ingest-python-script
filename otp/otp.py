@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+import random
 
 # Load Excel data
 df = pd.read_excel('otpPayload.xlsx')
@@ -12,7 +13,8 @@ for index, row in df.iterrows():
 
     data = {
     "email": str(row['emailPrefix']).replace(" ", "").replace(".", "")+'@gatestautomation.com',
-    "otp": 100000
+    "otp": "12345",
+    "userType": "TENANT"
 }
     json_data.append(data)
 

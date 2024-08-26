@@ -10,11 +10,12 @@ with open('product.json', 'r') as json_file:
     payloads = json.load(json_file)
 
 # Load Excel data
-df = pd.read_excel('productCreation.xlsx')
+df = pd.read_excel('product_data.xlsx')
 
 
 # API endpoint
-url = 'https://ig.aidtaas.com/market-place/v1.0/products'
+# url = 'https://ig.aidtaas.com/market-place/v1.0/products'
+url = 'https://ig.gov-cloud.ai/hcy-web/v1.0/products?requiredMasterConfigId=false'
 
 # Headers including Authorization token
 headers = {
@@ -27,6 +28,7 @@ product_ids = []
 
 # Iterate over each payload
 for payload in payloads:
+    print("payload", payload)
     try:
         # Make a POST request
         response = requests.post(url, json=payload, headers=headers)
@@ -67,9 +69,9 @@ print("Responses saved successfully.")
 print(product_ids)
 
 # Add 'AccountID' column to DataFrame
-df['productID'] = product_ids
+# df['productID'] = product_ids
 
 # Write updated DataFrame back to the same Excel file
-df.to_excel('productCreation.xlsx', index=False)
+df.to_excel('productCreation.xlsx', index=True)
 
 print("Excel file updated with productIDs.")

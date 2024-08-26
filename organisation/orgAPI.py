@@ -14,7 +14,8 @@ df = pd.read_excel('orgPayload.xlsx')
 
 
 # API endpoint
-url = 'https://ig.aidtaas.com/market-place/v1.0/organisations'
+# url = 'https://ig.aidtaas.com/market-place/v1.0/organisations'
+url = 'https://ig.gov-cloud.ai/hcy-web/v1.0/organisations'
 
 # Headers including Authorization token
 headers = {
@@ -59,6 +60,17 @@ for payload in payloads:
         org_ids.append(e)
         print(f"Request failed: {e}")
 
+     # Handle the response
+    if response.status_code == 201:  # Resource created successfully
+        response_data = response.json()
+        responses.append(response_data)
+        org_ids.append(response_data['id'])
+    else:
+        responses.append(response.text)
+        org_ids.append(response.text)
+        print(f"Failed to create Organization: {response.text}")
+
+
 # Save responses to a file
 with open('Orgresponses.json', 'w') as responses_file:
     json.dump(responses, responses_file, indent=4)
@@ -67,7 +79,7 @@ print("Responses saved successfully.")
 
 
 # Add 'AccountID' column to DataFrame
-df['OrgID'] = org_ids
+# df['OrgID'] = org_ids
 
 # Write updated DataFrame back to the same Excel file
 df.to_excel('orgPayload.xlsx', index=False)

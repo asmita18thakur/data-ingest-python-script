@@ -14,7 +14,8 @@ for index, row in df.iterrows():
     data = {
     "accountHolderName": row['accountHolderName'] ,
     "accountNum":  str(random.randint(100000000000, 999999999999)),
-    "accountType": 'COMPANY'
+    "accountType": 'COMPANY',
+    "emailId": "ig@gaiansolutions.com"
 }
     json_data.append(data)
 

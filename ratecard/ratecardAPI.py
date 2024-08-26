@@ -20,11 +20,13 @@ non_json_data = 'This is not JSON'
 
 # =================================
 
-
+# Load payloads from account.json
+with open('ratecard.json', 'r') as json_file:
+    payloads = json.load(json_file)
 
 
 # Load Excel data
-df = pd.read_excel('ratecards.xlsx')
+df = pd.read_excel('rate_card.xlsx')
 
 
 
@@ -73,10 +75,10 @@ with open('rateCardResponse.json', 'w') as responses_file:
 print("Responses saved successfully.")
 
 # Add 'AccountID' column to DataFrame
-df['RateCardID'] = ratecard_ids
+# df['RateCardID'] = ratecard_ids
 
 # Write updated DataFrame back to the same Excel file
-df.to_excel('ratecards.xlsx', index=False)
+df.to_excel('ratecardresponse.xlsx', index=True)
 
 print("Excel file updated with ratecardIDS")
 

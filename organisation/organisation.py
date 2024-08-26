@@ -4,11 +4,13 @@ import random
 
 # Load Excel data
 df = pd.read_excel('orgPayload.xlsx')
+print(df.columns)
 
 # # Convert to JSON
 json_data = []
 for index, row in df.iterrows():
     # print(row)
+
     # nullData = 'null'
 
     data = {
@@ -16,7 +18,8 @@ for index, row in df.iterrows():
     "organisationName": row['organisationName'],
     "accountId": row['accountId'],
     "website": "www."+ str(row['organisationName']).replace(" ", "").replace(".", "")+".com",
-    "routingNum": "4520005"
+    "routingNum": "4520005",
+    "emailId": "info@gaiansolutions.com",
 
 }
     json_data.append(data)
