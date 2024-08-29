@@ -1,12 +1,18 @@
 [
     {
-        "timestamp": 1724517439307,
+        "timestamp": 1724841984964,
         "origin": "hcy-web",
-        "errorCode": 404032,
-        "errorMessage": "Organisation not found.",
-        "actionsRequired": [
-            "Please use a cretae a orgaisation."
+        "errorCode": 400035,
+        "errorMessage": "IAM tenant creation failed",
+        "subErrors": [
+            {
+                "rootMessage": "Please create the tenant in IAM first, make sure your using the same Email Id while creating the tenant in holacracy ",
+                "timestamp": 1724312095
+            }
         ],
-        "httpStatusCode": "NOT_FOUND"
+        "actionsRequired": [
+            "IAM user not found, Create Tenant in IAM first."
+        ],
+        "httpStatusCode": "BAD_REQUEST"
     }
 ]

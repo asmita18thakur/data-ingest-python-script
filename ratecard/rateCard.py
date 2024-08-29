@@ -67,9 +67,8 @@ for index, row in df.iterrows():
     json_data.append(json.dumps(data, indent=4))
 
     # Write JSON data to a file
-output_filename = 'ratecard.json'
-with open(output_filename, 'w') as json_file:
-    json.dump(json_data, json_file, indent=4)
+with open('ratecard.json', 'w') as json_file:
+    json.dump(data, json_file, indent=4)
 
 print(f"JSON data has been written to '{output_filename}'")
 

@@ -1,0 +1,8 @@
+[
+    {
+        "status": "failure",
+        "error": "{\n  \"timestamp\" : 1724850366264,\n  \"origin\" : \"hcy-web\",\n  \"errorCode\" : 404012,\n  \"errorMessage\" : \"Rate Card not available in the database.\",\n  \"cause\" : {\n    \"message\" : \"Rate Card not available in the database.\",\n    \"timestamp\" : 0\n  },\n  \"httpStatusCode\" : \"CONFLICT\"\n}",
+        "http_status_code": 409,
+        "negotiation_index": 1
+    }
+]

@@ -3,12 +3,12 @@
         "countryCode": "+1",
         "description": " Tenant",
         "version": "v1.0",
-        "url": "www.Here.com.com",
-        "emailId": "Herecom@gatestautomation.com",
-        "organisationId": "64eb3c3e00026d3e65056ea8",
+        "url": "www.voxa.com",
+        "emailId": "voxa@gmail.com",
+        "organisationId": "66cef990b1dbc9702f40477a",
         "dmas": [],
         "selectedTags": [],
-        "telephoneNum": "6132019562",
+        "telephoneNum": "9088788788",
         "interestedProducts": [],
         "address": {
             "addressLine1": "",
@@ -24,19 +24,19 @@
         "defaultCurrency": "USD",
         "currenciesSupported": [],
         "logo": "www.mobius.com/images",
-        "userName": "Here.com@gatestautomation.com",
-        "firstName": "Mobius",
-        "lastName": "Gaian",
-        "name": "Here.com",
+        "userName": "VOXA",
+        "firstName": "voxa",
+        "lastName": "voxa",
+        "name": "voxa.com",
         "password": "Gaian@123",
-        "parentTenantId": "64e1fd3d1443eb00018cc231",
+        "parentTenantId": "5db1a2f0-1eb3-40ff-baad-31acde054ca5",
         "product": {
-            "64e1fa1a38c9497c1fe8e27a": [
+            "66ca1a7783d08979e96ceda4": [
                 "MARKETPLACE_USER"
             ]
         },
         "platformDetails": {
-            "64e1fa1a38c9497c1fe8e27a": [
+            "66ca1a7783d08979e96ceda4": [
                 "AP",
                 "TP",
                 "XP",

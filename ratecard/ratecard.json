@@ -1,3 +1,40 @@
-[
-    "{\n    \"name\": \"New Essential Plan\",\n    \"description\": \"Ratecard description for Ratecard_New Essential Plan\",\n    \"platformId\": \"64e77ec2fc8337558d722547\",\n    \"rateCardType\": \"SILVER\",\n    \"paasFee\": {\n        \"fixedFee\": 110,\n        \"baseFee\": \"0.0\",\n        \"validityFrom\": 1724421954.506825,\n        \"validityTo\": 1819029954.506835\n    },\n    \"saasFee\": {\n        \"fixedFee\": 120,\n        \"validityFrom\": 1724421954.506825,\n        \"validityTo\": 1819029954.506835\n    },\n    \"apiCountFee\": {\n        \"validityFrom\": 1724421954.506825,\n        \"validityTo\": 1819029954.506835,\n        \"perApiFee\": 122.5,\n        \"apiLimit\": 25,\n        \"baseFee\": 12\n    },\n    \"dataVolumeFee\": {\n        \"validityFrom\": 1724421954.506825,\n        \"validityTo\": 1819029954.506835,\n        \"perVolumeFee\": 122.5,\n        \"volumeLimit\": 25,\n        \"fixedFee\": 12,\n        \"dataUnitType\": \"BYTE\"\n    },\n    \"currency\": \"INR\",\n    \"isActive\": true,\n    \"contextId\": \"Context_Id\",\n    \"billingCycleUnit\": \"MINUTES\",\n    \"billingCycle\": \"2\",\n    \"eligibleForRoyalty\": true,\n    \"comment\": \"Comment Section.\",\n    \"rateCardFor\": \"PRODUCT\"\n}"
-]
+{
+    "name": "SLP",
+    "description": "Ratecard description for Ratecard_HCL Software",
+    "platformId": "664afc3caf2dfa4e7eeda5db",
+    "rateCardType": "GOLD",
+    "paasFee": {
+        "fixedFee": 1231,
+        "baseFee": "0.0",
+        "validityFrom": 1724913304.630792,
+        "validityTo": 1819521304.630805
+    },
+    "saasFee": {
+        "fixedFee": 3110,
+        "validityFrom": 1724913304.630792,
+        "validityTo": 1819521304.630805
+    },
+    "apiCountFee": {
+        "validityFrom": 1724913304.630792,
+        "validityTo": 1819521304.630805,
+        "perApiFee": 122.5,
+        "apiLimit": 25,
+        "baseFee": 12
+    },
+    "dataVolumeFee": {
+        "validityFrom": 1724913304.630792,
+        "validityTo": 1819521304.630805,
+        "perVolumeFee": 122.5,
+        "volumeLimit": 25,
+        "fixedFee": 12,
+        "dataUnitType": "BYTE"
+    },
+    "currency": "INR",
+    "isActive": true,
+    "contextId": "Context_Id",
+    "billingCycleUnit": "MINUTES",
+    "billingCycle": "2",
+    "eligibleForRoyalty": true,
+    "comment": "Comment Section.",
+    "rateCardFor": "PRODUCT"
+}
