@@ -1,39 +1,407 @@
 [
     {
-        "id": "66d01fa583d08979e96cedd6",
-        "name": "SLP",
+        "id": "66d084c7b1dbc9702f40479c",
+        "name": "ratecard1",
         "platformId": "664afc3caf2dfa4e7eeda5db",
         "rateCardFor": "PRODUCT",
-        "description": "Ratecard description for Ratecard_HCL Software",
-        "rateCardType": "GOLD",
+        "description": "Ratecard description for Ratecard_ratecard1",
+        "rateCardType": "TRIAL",
         "billingCycleUnit": "MINUTES",
         "billingCycle": 2,
-        "updatedTimeMs": 1724915621977,
-        "createdTimeMs": 1724915621977,
+        "updatedTimeMs": 1724941511974,
+        "createdTimeMs": 1724941511974,
         "paasFee": {
-            "validityFrom": 1724913304,
-            "validityTo": 1819521304,
-            "fixedFee": 1231.0,
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 0.0,
             "baseFee": 0.0
         },
         "saasFee": {
-            "validityFrom": 1724913304,
-            "validityTo": 1819521304,
-            "fixedFee": 3110.0
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 0.0
         },
         "apiCountFee": {
-            "validityFrom": 1724913304,
-            "validityTo": 1819521304,
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
             "perApiFee": 122,
             "apiLimit": 25,
             "baseFee": 12.0
         },
         "dataVolumeFee": {
-            "validityFrom": 1724913304,
-            "validityTo": 1819521304,
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
             "perVolumeFee": 122,
             "volumeLimit": 25,
-            "fixedFee": 12.0,
+            "fixedFee": 0.0,
+            "dataUnitType": "BYTE"
+        },
+        "dataSharable": true,
+        "currency": "INR",
+        "contextId": "Context_Id",
+        "keywords": [],
+        "eligibleForRoyalty": true,
+        "comment": "Comment Section.",
+        "defaultRateCard": false,
+        "metaData": {}
+    },
+    {
+        "id": "66d084c883d08979e96ceddf",
+        "name": "ratecard2",
+        "platformId": "665afc3caf2dfa4e7eeda5db",
+        "rateCardFor": "PRODUCT",
+        "description": "Ratecard description for Ratecard_ratecard2",
+        "rateCardType": "SILVER",
+        "billingCycleUnit": "MINUTES",
+        "billingCycle": 2,
+        "updatedTimeMs": 1724941512339,
+        "createdTimeMs": 1724941512339,
+        "paasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 10.0,
+            "baseFee": 0.0
+        },
+        "saasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 11.0
+        },
+        "apiCountFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perApiFee": 122,
+            "apiLimit": 25,
+            "baseFee": 12.0
+        },
+        "dataVolumeFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perVolumeFee": 122,
+            "volumeLimit": 25,
+            "fixedFee": 13.0,
+            "dataUnitType": "BYTE"
+        },
+        "dataSharable": true,
+        "currency": "INR",
+        "contextId": "Context_Id",
+        "keywords": [],
+        "eligibleForRoyalty": true,
+        "comment": "Comment Section.",
+        "defaultRateCard": false,
+        "metaData": {}
+    },
+    {
+        "id": "66d084c883d08979e96cede0",
+        "name": "ratecard3",
+        "platformId": "666afc3caf2dfa4e7eeda5db",
+        "rateCardFor": "PRODUCT",
+        "description": "Ratecard description for Ratecard_ratecard3",
+        "rateCardType": "GOLD",
+        "billingCycleUnit": "MINUTES",
+        "billingCycle": 2,
+        "updatedTimeMs": 1724941512665,
+        "createdTimeMs": 1724941512665,
+        "paasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 15.0,
+            "baseFee": 0.0
+        },
+        "saasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 16.0
+        },
+        "apiCountFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perApiFee": 122,
+            "apiLimit": 25,
+            "baseFee": 12.0
+        },
+        "dataVolumeFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perVolumeFee": 122,
+            "volumeLimit": 25,
+            "fixedFee": 18.0,
+            "dataUnitType": "BYTE"
+        },
+        "dataSharable": true,
+        "currency": "INR",
+        "contextId": "Context_Id",
+        "keywords": [],
+        "eligibleForRoyalty": true,
+        "comment": "Comment Section.",
+        "defaultRateCard": false,
+        "metaData": {}
+    },
+    {
+        "id": "66d084c8b1dbc9702f40479d",
+        "name": "ratecard4",
+        "platformId": "667afc3caf2dfa4e7eeda5db",
+        "rateCardFor": "PRODUCT",
+        "description": "Ratecard description for Ratecard_ratecard4",
+        "rateCardType": "PLATINUM",
+        "billingCycleUnit": "MINUTES",
+        "billingCycle": 2,
+        "updatedTimeMs": 1724941512956,
+        "createdTimeMs": 1724941512956,
+        "paasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 30.0,
+            "baseFee": 0.0
+        },
+        "saasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 31.0
+        },
+        "apiCountFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perApiFee": 122,
+            "apiLimit": 25,
+            "baseFee": 12.0
+        },
+        "dataVolumeFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perVolumeFee": 122,
+            "volumeLimit": 25,
+            "fixedFee": 33.0,
+            "dataUnitType": "BYTE"
+        },
+        "dataSharable": true,
+        "currency": "INR",
+        "contextId": "Context_Id",
+        "keywords": [],
+        "eligibleForRoyalty": true,
+        "comment": "Comment Section.",
+        "defaultRateCard": false,
+        "metaData": {}
+    },
+    {
+        "id": "66d084c9b1dbc9702f40479e",
+        "name": "ratecard5",
+        "platformId": "668afc3caf2dfa4e7eeda5db",
+        "rateCardFor": "PRODUCT",
+        "description": "Ratecard description for Ratecard_ratecard5",
+        "rateCardType": "TRIAL",
+        "billingCycleUnit": "MINUTES",
+        "billingCycle": 2,
+        "updatedTimeMs": 1724941513275,
+        "createdTimeMs": 1724941513275,
+        "paasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 0.0,
+            "baseFee": 0.0
+        },
+        "saasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 0.0
+        },
+        "apiCountFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perApiFee": 122,
+            "apiLimit": 25,
+            "baseFee": 12.0
+        },
+        "dataVolumeFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perVolumeFee": 122,
+            "volumeLimit": 25,
+            "fixedFee": 0.0,
+            "dataUnitType": "BYTE"
+        },
+        "dataSharable": true,
+        "currency": "INR",
+        "contextId": "Context_Id",
+        "keywords": [],
+        "eligibleForRoyalty": true,
+        "comment": "Comment Section.",
+        "defaultRateCard": false,
+        "metaData": {}
+    },
+    {
+        "id": "66d084c983d08979e96cede1",
+        "name": "ratecard6",
+        "platformId": "669afc3caf2dfa4e7eeda5db",
+        "rateCardFor": "PRODUCT",
+        "description": "Ratecard description for Ratecard_ratecard6",
+        "rateCardType": "SILVER",
+        "billingCycleUnit": "MINUTES",
+        "billingCycle": 2,
+        "updatedTimeMs": 1724941513596,
+        "createdTimeMs": 1724941513596,
+        "paasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 10.0,
+            "baseFee": 0.0
+        },
+        "saasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 11.0
+        },
+        "apiCountFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perApiFee": 122,
+            "apiLimit": 25,
+            "baseFee": 12.0
+        },
+        "dataVolumeFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perVolumeFee": 122,
+            "volumeLimit": 25,
+            "fixedFee": 13.0,
+            "dataUnitType": "BYTE"
+        },
+        "dataSharable": true,
+        "currency": "INR",
+        "contextId": "Context_Id",
+        "keywords": [],
+        "eligibleForRoyalty": true,
+        "comment": "Comment Section.",
+        "defaultRateCard": false,
+        "metaData": {}
+    },
+    {
+        "id": "66d084c9b1dbc9702f40479f",
+        "name": "ratecard7",
+        "platformId": "670afc3caf2dfa4e7eeda5db",
+        "rateCardFor": "PRODUCT",
+        "description": "Ratecard description for Ratecard_ratecard7",
+        "rateCardType": "GOLD",
+        "billingCycleUnit": "MINUTES",
+        "billingCycle": 2,
+        "updatedTimeMs": 1724941513914,
+        "createdTimeMs": 1724941513914,
+        "paasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 15.0,
+            "baseFee": 0.0
+        },
+        "saasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 16.0
+        },
+        "apiCountFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perApiFee": 122,
+            "apiLimit": 25,
+            "baseFee": 12.0
+        },
+        "dataVolumeFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perVolumeFee": 122,
+            "volumeLimit": 25,
+            "fixedFee": 18.0,
+            "dataUnitType": "BYTE"
+        },
+        "dataSharable": true,
+        "currency": "INR",
+        "contextId": "Context_Id",
+        "keywords": [],
+        "eligibleForRoyalty": true,
+        "comment": "Comment Section.",
+        "defaultRateCard": false,
+        "metaData": {}
+    },
+    {
+        "id": "66d084ca83d08979e96cede2",
+        "name": "ratecard8",
+        "platformId": "671afc3caf2dfa4e7eeda5db",
+        "rateCardFor": "PRODUCT",
+        "description": "Ratecard description for Ratecard_ratecard8",
+        "rateCardType": "PLATINUM",
+        "billingCycleUnit": "MINUTES",
+        "billingCycle": 2,
+        "updatedTimeMs": 1724941514164,
+        "createdTimeMs": 1724941514164,
+        "paasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 30.0,
+            "baseFee": 0.0
+        },
+        "saasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 31.0
+        },
+        "apiCountFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perApiFee": 122,
+            "apiLimit": 25,
+            "baseFee": 12.0
+        },
+        "dataVolumeFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perVolumeFee": 122,
+            "volumeLimit": 25,
+            "fixedFee": 33.0,
+            "dataUnitType": "BYTE"
+        },
+        "dataSharable": true,
+        "currency": "INR",
+        "contextId": "Context_Id",
+        "keywords": [],
+        "eligibleForRoyalty": true,
+        "comment": "Comment Section.",
+        "defaultRateCard": false,
+        "metaData": {}
+    },
+    {
+        "id": "66d084cab1dbc9702f4047a0",
+        "name": "ratecard9",
+        "platformId": "672afc3caf2dfa4e7eeda5db",
+        "rateCardFor": "PRODUCT",
+        "description": "Ratecard description for Ratecard_ratecard9",
+        "rateCardType": "TRIAL",
+        "billingCycleUnit": "MINUTES",
+        "billingCycle": 2,
+        "updatedTimeMs": 1724941514476,
+        "createdTimeMs": 1724941514476,
+        "paasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 0.0,
+            "baseFee": 0.0
+        },
+        "saasFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "fixedFee": 0.0
+        },
+        "apiCountFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perApiFee": 122,
+            "apiLimit": 25,
+            "baseFee": 12.0
+        },
+        "dataVolumeFee": {
+            "validityFrom": 1724941432,
+            "validityTo": 1819549432,
+            "perVolumeFee": 122,
+            "volumeLimit": 25,
+            "fixedFee": 0.0,
             "dataUnitType": "BYTE"
         },
         "dataSharable": true,

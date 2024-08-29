@@ -1,0 +1,4 @@
+{
+    "Status Code": 201,
+    "Response": "{\n  \"walletId\" : \"3F76DF83-0C34-4648-BDC1-A1433BB5153D\",\n  \"name\" : \"Ncxs1\",\n  \"mobile\" : \"+78778887777\",\n  \"email\" : \"jlff@mobiusaidtaas.ai\",\n  \"currency\" : \"USD\",\n  \"createdTimeMs\" : 1724935206019,\n  \"updatedTimeMs\" : 0,\n  \"walletBalance\" : 0,\n  \"walletType\" : \"TENANT\",\n  \"platformId\" : \"bb28cae5-9b68-44d8-bae3-032aa362a5d3\",\n  \"secondaryCardIds\" : [ ],\n  \"primaryCardId\" : \"4012888880801119\",\n  \"deleted\" : false\n}"
+}

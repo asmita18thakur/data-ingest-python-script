@@ -1,0 +1,24 @@
+[
+    {
+    "cardId":"4012778880803319", 
+    "platformId":"bb28cae5-9b68-44d8-bae3-032aa362a5d3",
+    "name": "NCCBV",
+    "mobile": "+78778887777",
+    "email": "voxxqw@mobiusaidtaas.ai",
+    "currency": "USD",
+    "walletType": "TENANT",
+    "customerCreateRequest": {
+        "address": {
+            "addressLine1": "10880 Malibu Point, 90265",
+            "addressLine2": "10880 Malibu Point, 90265",
+            "city": "Malibu",
+            "state": "Malibu",
+            "country": "US",
+            "postCode": "90265",
+            "longitude": 102.02,
+            "latitude": 10.2,
+            "type": "PRIMARY"
+        }
+    }
+    }
+]
