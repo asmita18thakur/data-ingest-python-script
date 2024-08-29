@@ -1,0 +1,4 @@
+{
+    "Status Code": 201,
+    "Response": "{\"id\":\"66d04ff583d08979e96cedda\",\"comments\":{\"productId\":\"668c0f2430b0b830ec5cebf9\",\"platformId\":\"664afc3caf2dfa4e7eeda5db\",\"userTenantId\":\"bb28cae5-9b68-44d8-bae3-032aa362a5d3\",\"description\":\"good\",\"title\":\"Good\",\"rating\":2.0},\"tenantLogo\":\"www.mobius.com/images\",\"tenantName\":\"Voxa Voxa\",\"jobDescription\":\" Tenant\",\"tenantEmailId\":\"ENC(YXnsH9SPhME5nXfje7NzXw==)\",\"companyName\":\"VoXA Org\",\"active\":true}"
+}

@@ -1,10 +1,19 @@
 [
     {
-        "registrationNumber": "8061427920",
-        "organisationName": "Amazon",
-        "accountId": "66c8607fb1dbc9702f404555",
-        "website": "www.Samsung.com",
-        "routingNum": "4520005",
-        "emailId": "info@gaiansolutions.com"
+        "registrationNumber": "90044004",
+        "organisationName": "VoXA Org",
+        "accountId": "66cef86ab1dbc9702f404777",
+        "website": "www.voxa.com",
+        "routingNum": "4520006",
+        "emailId": "voxa@gmail.com"
+    },
+    {
+        "registrationNumber": "78550344",
+        "organisationName": "Run Run",
+        "accountId": "66cef968b1dbc9702f404779",
+        "website": "www.run.com",
+        "routingNum": "4520006",
+        "emailId": "run@gmail.com"
     }
+
 ]

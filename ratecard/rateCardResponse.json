@@ -1,36 +1,36 @@
 [
     {
-        "id": "66c8974d83d08979e96ced9e",
-        "name": "New Essential Plan",
-        "platformId": "64e77ec2fc8337558d722547",
+        "id": "66d01fa583d08979e96cedd6",
+        "name": "SLP",
+        "platformId": "664afc3caf2dfa4e7eeda5db",
         "rateCardFor": "PRODUCT",
-        "description": "Ratecard description for Ratecard_New Essential Plan",
-        "rateCardType": "SILVER",
+        "description": "Ratecard description for Ratecard_HCL Software",
+        "rateCardType": "GOLD",
         "billingCycleUnit": "MINUTES",
         "billingCycle": 2,
-        "updatedTimeMs": 1724421965216,
-        "createdTimeMs": 1724421965216,
+        "updatedTimeMs": 1724915621977,
+        "createdTimeMs": 1724915621977,
         "paasFee": {
-            "validityFrom": 1724421954,
-            "validityTo": 1819029954,
-            "fixedFee": 110.0,
+            "validityFrom": 1724913304,
+            "validityTo": 1819521304,
+            "fixedFee": 1231.0,
             "baseFee": 0.0
         },
         "saasFee": {
-            "validityFrom": 1724421954,
-            "validityTo": 1819029954,
-            "fixedFee": 120.0
+            "validityFrom": 1724913304,
+            "validityTo": 1819521304,
+            "fixedFee": 3110.0
         },
         "apiCountFee": {
-            "validityFrom": 1724421954,
-            "validityTo": 1819029954,
+            "validityFrom": 1724913304,
+            "validityTo": 1819521304,
             "perApiFee": 122,
             "apiLimit": 25,
             "baseFee": 12.0
         },
         "dataVolumeFee": {
-            "validityFrom": 1724421954,
-            "validityTo": 1819029954,
+            "validityFrom": 1724913304,
+            "validityTo": 1819521304,
             "perVolumeFee": 122,
             "volumeLimit": 25,
             "fixedFee": 12.0,

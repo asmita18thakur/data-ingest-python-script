@@ -1,0 +1,12 @@
+[
+    {
+        "OrgID": "66cef990b1dbc9702f40477a",
+        "Status": "Success",
+        "Detail": "{\"id\": \"66cef990b1dbc9702f40477a\", \"organisationName\": \"VoXA Org\", \"registrationNumber\": \"90044004\", \"website\": \"www.voxa.com\", \"routingNum\": \"4520006\", \"accountId\": \"********************4777\", \"emailId\": \"v*****@gmail.com\", \"active\": true}"
+    },
+    {
+        "OrgID": "66cef990b1dbc9702f40477b",
+        "Status": "Success",
+        "Detail": "{\"id\": \"66cef990b1dbc9702f40477b\", \"organisationName\": \"Run Run\", \"registrationNumber\": \"78550344\", \"website\": \"www.run.com\", \"routingNum\": \"4520006\", \"accountId\": \"********************4779\", \"emailId\": \"r*****@gmail.com\", \"active\": true}"
+    }
+]

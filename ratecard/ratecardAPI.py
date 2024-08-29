@@ -13,10 +13,6 @@ def is_valid_json(data):
     except ValueError:
         return False
 
-# Test examples
-json_data = '{"name": "John", "age": 30, "city": "New York"}'
-non_json_data = 'This is not JSON'
-
 
 # =================================
 
@@ -24,7 +20,7 @@ non_json_data = 'This is not JSON'
 with open('ratecard.json', 'r') as json_file:
     payloads = json.load(json_file)
 
-
+print(payloads)
 # Load Excel data
 df = pd.read_excel('rate_card.xlsx')
 
@@ -56,29 +52,31 @@ for index, row in df.iterrows():
             ratecard_ids.append("error")
             continue  # Move to the next iteration
     
-    response = requests.post(url, json=json_payload, headers=headers)
-    response_json = response.json()
-    responses.append(response_json)
-    
+    # Send the POST request to the API
+    response = requests.post(url, json=payloads, headers=headers)
     if response.status_code == 201:
-        ratecard_ids.append(response_json.get('id', ''))
-        # print("Successfully created:", response_json)
+        # Successfully created ratecard, extract ID
+        response_json = response.json()
+        ratecard_id = response_json.get('id', 'No ID returned')
+        ratecard_ids.append(ratecard_id)
+        responses.append(response_json)
+        print(f"Successfully created ratecard with ID: {ratecard_id}")
     else:
+        # Log error details if the API call was unsuccessful
+        print(f"Error response at index {index}: {response.status_code} - {response.text}")
+        responses.append(response.text)
         ratecard_ids.append("error")
-        print("Error response:", response.status_code, response_json)
 
-
-# Save responses to a file
-with open('rateCardResponse.json', 'w') as responses_file:
-    json.dump(responses, responses_file, indent=4)
-
+# Save responses to a JSON file
+with open('rateCardResponse.json', 'w') as file:
+    json.dump(responses, file, indent=4)
 print("Responses saved successfully.")
 
-# Add 'AccountID' column to DataFrame
-# df['RateCardID'] = ratecard_ids
+# Update the DataFrame with new ratecard IDs
+df['RateCardID'] = ratecard_ids
 
 # Write updated DataFrame back to the same Excel file
-df.to_excel('ratecardresponse.xlsx', index=True)
+df.to_excel('ratecardresponse.xlsx', index=False)
 
 print("Excel file updated with ratecardIDS")
 
