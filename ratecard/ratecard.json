@@ -1,16 +1,17 @@
+
 {
-    "name": "SLP",
+    "name": "NVCC",
     "description": "Ratecard description for Ratecard_HCL Software",
     "platformId": "664afc3caf2dfa4e7eeda5db",
     "rateCardType": "GOLD",
     "paasFee": {
-        "fixedFee": 1231,
+        "fixedFee": 3332,
         "baseFee": "0.0",
         "validityFrom": 1724913304.630792,
         "validityTo": 1819521304.630805
     },
     "saasFee": {
-        "fixedFee": 3110,
+        "fixedFee": 4343,
         "validityFrom": 1724913304.630792,
         "validityTo": 1819521304.630805
     },

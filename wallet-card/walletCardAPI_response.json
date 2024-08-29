@@ -1,0 +1,4 @@
+{
+    "Status Code": 201,
+    "Response": "{\n  \"msg\" : \"Successfully added card details for user voxa@gmail.com\"\n}"
+}

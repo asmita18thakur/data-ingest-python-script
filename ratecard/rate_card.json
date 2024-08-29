@@ -1,0 +1,40 @@
+{
+    "name": "ratecard9",
+    "description": "Ratecard description for Ratecard_ratecard9",
+    "platformId": "672afc3caf2dfa4e7eeda5db",
+    "rateCardType": "TRIAL",
+    "paasFee": {
+        "fixedFee": 0,
+        "baseFee": "0.0",
+        "validityFrom": 1724940532.970574,
+        "validityTo": 1819548532.970585
+    },
+    "saasFee": {
+        "fixedFee": 0,
+        "validityFrom": 1724940532.970574,
+        "validityTo": 1819548532.970585
+    },
+    "apiCountFee": {
+        "validityFrom": 1724940532.970574,
+        "validityTo": 1819548532.970585,
+        "perApiFee": 122.5,
+        "apiLimit": 25,
+        "baseFee": 12
+    },
+    "dataVolumeFee": {
+        "validityFrom": 1724940532.970574,
+        "validityTo": 1819548532.970585,
+        "perVolumeFee": 122.5,
+        "volumeLimit": 25,
+        "fixedFee": 0,
+        "dataUnitType": "BYTE"
+    },
+    "currency": "INR",
+    "isActive": true,
+    "contextId": "Context_Id",
+    "billingCycleUnit": "MINUTES",
+    "billingCycle": "2",
+    "eligibleForRoyalty": true,
+    "comment": "Comment Section.",
+    "rateCardFor": "PRODUCT"
+}

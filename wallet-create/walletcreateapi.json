@@ -1,0 +1,7 @@
+[
+    {
+        "WalletID": "49888370-A9D8-4715-A0BB-120E4E455CFB",
+        "Status": "Success",
+        "Detail": "{\"walletId\": \"49888370-A9D8-4715-A0BB-120E4E455CFB\", \"name\": \"NCCBV\", \"mobile\": \"+78778887777\", \"email\": \"voxxqw@mobiusaidtaas.ai\", \"currency\": \"USD\", \"createdTimeMs\": 1724936679612, \"updatedTimeMs\": 0, \"walletBalance\": 0, \"walletType\": \"TENANT\", \"platformId\": \"bb28cae5-9b68-44d8-bae3-032aa362a5d3\", \"secondaryCardIds\": [], \"primaryCardId\": \"4012778880803319\", \"deleted\": false}"
+    }
+]
