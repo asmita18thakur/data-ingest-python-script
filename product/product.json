@@ -1,22 +1,103 @@
 [
     {
-        "name": "NXC_New_103",
+        "name": "Product_XPX",
         "platformId": "664afc3caf2dfa4e7eeda5db",
         "plan": {
             "rateCardIds": {},
             "defaultRatecardId": "64c2762b0975f4693387bb96"
         },
         "description": "weather service provider",
-        "productType": "XP",
+        "productType": "IP",
         "logoUrl": "https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png",
         "productTags": [
-            "OTT",
-            "DATA CASTING"
+            "In MY Org"
         ],
-        "masterConfig": {},
+        "masterConfig": {
+            "REST Api Controller": {
+                "children": {
+                    "Dynamic Rest Call Api": {
+                        "apiType": "REST",
+                        "communicationType": "SYNC",
+                        "children": {
+                            "HTTP-HEADERS": {
+                                "children": {
+                                    "Content-Type": {
+                                        "dataType": "STRING",
+                                        "value": "application/json",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    },
+                                    "Accept": {
+                                        "dataType": "STRING",
+                                        "value": "/",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "REQUEST-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "RESPONSE-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "HTTP-URL": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            },
+                            "HTTP-METHOD": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            }
+                        },
+                        "type": "API"
+                    }
+                },
+                "type": "GROUP"
+            }
+        },
         "servingAreas": [],
         "snapshotsUrls": [],
-        "relatedInformation": "",
+        "relatedInformation": "Dont know what sort of related information.",
         "attachedDocumentsUrls": [],
         "videoUrls": [],
         "videos": [],
@@ -28,7 +109,931 @@
             "ROLE_MARKETPLACE_USER"
         ],
         "config": {},
-        "ownerId": "64e1fd3d1443eb00018cc231",
+        "ownerId": "bb28cae5-9b68-44d8-bae3-032aa362a5d3",
+        "productUrl": "www.google.com/product/url",
+        "version": "v1.0",
+        "hostedApps": [],
+        "subscriptionStatus": "TRIAL",
+        "domain": "",
+        "allianceInfo": {},
+        "interestedTenants": [],
+        "currency": "USD",
+        "plpConfiguration": {},
+        "participation": "OPEN",
+        "tenantName": "",
+        "alliancedProduct": "",
+        "productOffering": "PRODUCT",
+        "constructType": "BA",
+        "constructId": "123",
+        "rating": 5.0,
+        "prices": [
+            "Paid",
+            "AD_BASED"
+        ]
+    },
+    {
+        "name": "Product_XPX2",
+        "platformId": "664afc3caf2dfa4e7eeda5db",
+        "plan": {
+            "rateCardIds": {},
+            "defaultRatecardId": "64c2762b0975f4693387bb96"
+        },
+        "description": "weather service provider",
+        "productType": "IP",
+        "logoUrl": "https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png",
+        "productTags": [
+            "DATA CASTING"
+        ],
+        "masterConfig": {
+            "REST Api Controller": {
+                "children": {
+                    "Dynamic Rest Call Api": {
+                        "apiType": "REST",
+                        "communicationType": "SYNC",
+                        "children": {
+                            "HTTP-HEADERS": {
+                                "children": {
+                                    "Content-Type": {
+                                        "dataType": "STRING",
+                                        "value": "application/json",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    },
+                                    "Accept": {
+                                        "dataType": "STRING",
+                                        "value": "/",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "REQUEST-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "RESPONSE-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "HTTP-URL": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            },
+                            "HTTP-METHOD": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            }
+                        },
+                        "type": "API"
+                    }
+                },
+                "type": "GROUP"
+            }
+        },
+        "servingAreas": [],
+        "snapshotsUrls": [],
+        "relatedInformation": "Dont know what sort of related information.",
+        "attachedDocumentsUrls": [],
+        "videoUrls": [],
+        "videos": [],
+        "website": "www.website.com",
+        "allowsMultiplePurchases": true,
+        "productRoles": [
+            "ROLE_CONSUMER",
+            "ROLE_USER",
+            "ROLE_MARKETPLACE_USER"
+        ],
+        "config": {},
+        "ownerId": "bb28cae5-9b68-44d8-bae3-032aa362a5d3",
+        "productUrl": "www.google.com/product/url",
+        "version": "v1.0",
+        "hostedApps": [],
+        "subscriptionStatus": "TRIAL",
+        "domain": "",
+        "allianceInfo": {},
+        "interestedTenants": [],
+        "currency": "USD",
+        "plpConfiguration": {},
+        "participation": "OPEN",
+        "tenantName": "",
+        "alliancedProduct": "",
+        "productOffering": "PRODUCT",
+        "constructType": "BA",
+        "constructId": "123",
+        "rating": 5.0,
+        "prices": [
+            "Paid",
+            "AD_BASED"
+        ]
+    },
+    {
+        "name": "Product_XPX3",
+        "platformId": "664afc3caf2dfa4e7eeda5db",
+        "plan": {
+            "rateCardIds": {},
+            "defaultRatecardId": "64c2762b0975f4693387bb96"
+        },
+        "description": "weather service provider",
+        "productType": "TP",
+        "logoUrl": "https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png",
+        "productTags": [
+            "In MY Org"
+        ],
+        "masterConfig": {
+            "REST Api Controller": {
+                "children": {
+                    "Dynamic Rest Call Api": {
+                        "apiType": "REST",
+                        "communicationType": "SYNC",
+                        "children": {
+                            "HTTP-HEADERS": {
+                                "children": {
+                                    "Content-Type": {
+                                        "dataType": "STRING",
+                                        "value": "application/json",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    },
+                                    "Accept": {
+                                        "dataType": "STRING",
+                                        "value": "/",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "REQUEST-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "RESPONSE-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "HTTP-URL": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            },
+                            "HTTP-METHOD": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            }
+                        },
+                        "type": "API"
+                    }
+                },
+                "type": "GROUP"
+            }
+        },
+        "servingAreas": [],
+        "snapshotsUrls": [],
+        "relatedInformation": "Dont know what sort of related information.",
+        "attachedDocumentsUrls": [],
+        "videoUrls": [],
+        "videos": [],
+        "website": "www.website.com",
+        "allowsMultiplePurchases": true,
+        "productRoles": [
+            "ROLE_CONSUMER",
+            "ROLE_USER",
+            "ROLE_MARKETPLACE_USER"
+        ],
+        "config": {},
+        "ownerId": "bb28cae5-9b68-44d8-bae3-032aa362a5d3",
+        "productUrl": "www.google.com/product/url",
+        "version": "v1.0",
+        "hostedApps": [],
+        "subscriptionStatus": "TRIAL",
+        "domain": "",
+        "allianceInfo": {},
+        "interestedTenants": [],
+        "currency": "USD",
+        "plpConfiguration": {},
+        "participation": "OPEN",
+        "tenantName": "",
+        "alliancedProduct": "",
+        "productOffering": "PRODUCT",
+        "constructType": "BA",
+        "constructId": "123",
+        "rating": 5.0,
+        "prices": [
+            "Paid",
+            "AD_BASED"
+        ]
+    },
+    {
+        "name": "Product_XPX4",
+        "platformId": "664afc3caf2dfa4e7eeda5db",
+        "plan": {
+            "rateCardIds": {},
+            "defaultRatecardId": "64c2762b0975f4693387bb96"
+        },
+        "description": "weather service provider",
+        "productType": "IP",
+        "logoUrl": "https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png",
+        "productTags": [
+            "OTT"
+        ],
+        "masterConfig": {
+            "REST Api Controller": {
+                "children": {
+                    "Dynamic Rest Call Api": {
+                        "apiType": "REST",
+                        "communicationType": "SYNC",
+                        "children": {
+                            "HTTP-HEADERS": {
+                                "children": {
+                                    "Content-Type": {
+                                        "dataType": "STRING",
+                                        "value": "application/json",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    },
+                                    "Accept": {
+                                        "dataType": "STRING",
+                                        "value": "/",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "REQUEST-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "RESPONSE-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "HTTP-URL": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            },
+                            "HTTP-METHOD": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            }
+                        },
+                        "type": "API"
+                    }
+                },
+                "type": "GROUP"
+            }
+        },
+        "servingAreas": [],
+        "snapshotsUrls": [],
+        "relatedInformation": "Dont know what sort of related information.",
+        "attachedDocumentsUrls": [],
+        "videoUrls": [],
+        "videos": [],
+        "website": "www.website.com",
+        "allowsMultiplePurchases": true,
+        "productRoles": [
+            "ROLE_CONSUMER",
+            "ROLE_USER",
+            "ROLE_MARKETPLACE_USER"
+        ],
+        "config": {},
+        "ownerId": "bb28cae5-9b68-44d8-bae3-032aa362a5d3",
+        "productUrl": "www.google.com/product/url",
+        "version": "v1.0",
+        "hostedApps": [],
+        "subscriptionStatus": "TRIAL",
+        "domain": "",
+        "allianceInfo": {},
+        "interestedTenants": [],
+        "currency": "USD",
+        "plpConfiguration": {},
+        "participation": "OPEN",
+        "tenantName": "",
+        "alliancedProduct": "",
+        "productOffering": "PRODUCT",
+        "constructType": "BA",
+        "constructId": "123",
+        "rating": 5.0,
+        "prices": [
+            "Paid",
+            "AD_BASED"
+        ]
+    },
+    {
+        "name": "Product_XPX5",
+        "platformId": "664afc3caf2dfa4e7eeda5db",
+        "plan": {
+            "rateCardIds": {},
+            "defaultRatecardId": "64c2762b0975f4693387bb96"
+        },
+        "description": "weather service provider",
+        "productType": "XP",
+        "logoUrl": "https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png",
+        "productTags": [
+            "MEDIA"
+        ],
+        "masterConfig": {
+            "REST Api Controller": {
+                "children": {
+                    "Dynamic Rest Call Api": {
+                        "apiType": "REST",
+                        "communicationType": "SYNC",
+                        "children": {
+                            "HTTP-HEADERS": {
+                                "children": {
+                                    "Content-Type": {
+                                        "dataType": "STRING",
+                                        "value": "application/json",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    },
+                                    "Accept": {
+                                        "dataType": "STRING",
+                                        "value": "/",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "REQUEST-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "RESPONSE-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "HTTP-URL": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            },
+                            "HTTP-METHOD": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            }
+                        },
+                        "type": "API"
+                    }
+                },
+                "type": "GROUP"
+            }
+        },
+        "servingAreas": [],
+        "snapshotsUrls": [],
+        "relatedInformation": "Dont know what sort of related information.",
+        "attachedDocumentsUrls": [],
+        "videoUrls": [],
+        "videos": [],
+        "website": "www.website.com",
+        "allowsMultiplePurchases": true,
+        "productRoles": [
+            "ROLE_CONSUMER",
+            "ROLE_USER",
+            "ROLE_MARKETPLACE_USER"
+        ],
+        "config": {},
+        "ownerId": "bb28cae5-9b68-44d8-bae3-032aa362a5d3",
+        "productUrl": "www.google.com/product/url",
+        "version": "v1.0",
+        "hostedApps": [],
+        "subscriptionStatus": "TRIAL",
+        "domain": "",
+        "allianceInfo": {},
+        "interestedTenants": [],
+        "currency": "USD",
+        "plpConfiguration": {},
+        "participation": "OPEN",
+        "tenantName": "",
+        "alliancedProduct": "",
+        "productOffering": "PRODUCT",
+        "constructType": "BA",
+        "constructId": "123",
+        "rating": 5.0,
+        "prices": [
+            "Paid",
+            "AD_BASED"
+        ]
+    },
+    {
+        "name": "Product_XPX6",
+        "platformId": "664afc3caf2dfa4e7eeda5db",
+        "plan": {
+            "rateCardIds": {},
+            "defaultRatecardId": "64c2762b0975f4693387bb96"
+        },
+        "description": "weather service provider",
+        "productType": "MP",
+        "logoUrl": "https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png",
+        "productTags": [
+            "RADIO"
+        ],
+        "masterConfig": {
+            "REST Api Controller": {
+                "children": {
+                    "Dynamic Rest Call Api": {
+                        "apiType": "REST",
+                        "communicationType": "SYNC",
+                        "children": {
+                            "HTTP-HEADERS": {
+                                "children": {
+                                    "Content-Type": {
+                                        "dataType": "STRING",
+                                        "value": "application/json",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    },
+                                    "Accept": {
+                                        "dataType": "STRING",
+                                        "value": "/",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "REQUEST-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "RESPONSE-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "HTTP-URL": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            },
+                            "HTTP-METHOD": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            }
+                        },
+                        "type": "API"
+                    }
+                },
+                "type": "GROUP"
+            }
+        },
+        "servingAreas": [],
+        "snapshotsUrls": [],
+        "relatedInformation": "Dont know what sort of related information.",
+        "attachedDocumentsUrls": [],
+        "videoUrls": [],
+        "videos": [],
+        "website": "www.website.com",
+        "allowsMultiplePurchases": true,
+        "productRoles": [
+            "ROLE_CONSUMER",
+            "ROLE_USER",
+            "ROLE_MARKETPLACE_USER"
+        ],
+        "config": {},
+        "ownerId": "bb28cae5-9b68-44d8-bae3-032aa362a5d3",
+        "productUrl": "www.google.com/product/url",
+        "version": "v1.0",
+        "hostedApps": [],
+        "subscriptionStatus": "TRIAL",
+        "domain": "",
+        "allianceInfo": {},
+        "interestedTenants": [],
+        "currency": "USD",
+        "plpConfiguration": {},
+        "participation": "OPEN",
+        "tenantName": "",
+        "alliancedProduct": "",
+        "productOffering": "PRODUCT",
+        "constructType": "BA",
+        "constructId": "123",
+        "rating": 5.0,
+        "prices": [
+            "Paid",
+            "AD_BASED"
+        ]
+    },
+    {
+        "name": "Product_XPX7",
+        "platformId": "664afc3caf2dfa4e7eeda5db",
+        "plan": {
+            "rateCardIds": {},
+            "defaultRatecardId": "64c2762b0975f4693387bb96"
+        },
+        "description": "weather service provider",
+        "productType": "TP",
+        "logoUrl": "https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png",
+        "productTags": [
+            "NEWS"
+        ],
+        "masterConfig": {
+            "REST Api Controller": {
+                "children": {
+                    "Dynamic Rest Call Api": {
+                        "apiType": "REST",
+                        "communicationType": "SYNC",
+                        "children": {
+                            "HTTP-HEADERS": {
+                                "children": {
+                                    "Content-Type": {
+                                        "dataType": "STRING",
+                                        "value": "application/json",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    },
+                                    "Accept": {
+                                        "dataType": "STRING",
+                                        "value": "/",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "REQUEST-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "RESPONSE-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "HTTP-URL": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            },
+                            "HTTP-METHOD": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            }
+                        },
+                        "type": "API"
+                    }
+                },
+                "type": "GROUP"
+            }
+        },
+        "servingAreas": [],
+        "snapshotsUrls": [],
+        "relatedInformation": "Dont know what sort of related information.",
+        "attachedDocumentsUrls": [],
+        "videoUrls": [],
+        "videos": [],
+        "website": "www.website.com",
+        "allowsMultiplePurchases": true,
+        "productRoles": [
+            "ROLE_CONSUMER",
+            "ROLE_USER",
+            "ROLE_MARKETPLACE_USER"
+        ],
+        "config": {},
+        "ownerId": "bb28cae5-9b68-44d8-bae3-032aa362a5d3",
+        "productUrl": "www.google.com/product/url",
+        "version": "v1.0",
+        "hostedApps": [],
+        "subscriptionStatus": "TRIAL",
+        "domain": "",
+        "allianceInfo": {},
+        "interestedTenants": [],
+        "currency": "USD",
+        "plpConfiguration": {},
+        "participation": "OPEN",
+        "tenantName": "",
+        "alliancedProduct": "",
+        "productOffering": "PRODUCT",
+        "constructType": "BA",
+        "constructId": "123",
+        "rating": 5.0,
+        "prices": [
+            "Paid",
+            "AD_BASED"
+        ]
+    },
+    {
+        "name": "Product_XPX8",
+        "platformId": "664afc3caf2dfa4e7eeda5db",
+        "plan": {
+            "rateCardIds": {},
+            "defaultRatecardId": "64c2762b0975f4693387bb96"
+        },
+        "description": "weather service provider",
+        "productType": "IP",
+        "logoUrl": "https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png",
+        "productTags": [
+            "In MY Org"
+        ],
+        "masterConfig": {
+            "REST Api Controller": {
+                "children": {
+                    "Dynamic Rest Call Api": {
+                        "apiType": "REST",
+                        "communicationType": "SYNC",
+                        "children": {
+                            "HTTP-HEADERS": {
+                                "children": {
+                                    "Content-Type": {
+                                        "dataType": "STRING",
+                                        "value": "application/json",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    },
+                                    "Accept": {
+                                        "dataType": "STRING",
+                                        "value": "/",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "REQUEST-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "RESPONSE-BODY": {
+                                "children": {
+                                    "_$": {
+                                        "dataType": "OBJECT",
+                                        "value": "",
+                                        "mandatory": false,
+                                        "modificationAllowed": false,
+                                        "type": "PROPERTY",
+                                        "link": "",
+                                        "comment": ""
+                                    }
+                                },
+                                "type": "GROUP"
+                            },
+                            "HTTP-URL": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            },
+                            "HTTP-METHOD": {
+                                "dataType": "STRING",
+                                "value": "",
+                                "mandatory": false,
+                                "modificationAllowed": false,
+                                "type": "PROPERTY",
+                                "link": "",
+                                "comment": ""
+                            }
+                        },
+                        "type": "API"
+                    }
+                },
+                "type": "GROUP"
+            }
+        },
+        "servingAreas": [],
+        "snapshotsUrls": [],
+        "relatedInformation": "Dont know what sort of related information.",
+        "attachedDocumentsUrls": [],
+        "videoUrls": [],
+        "videos": [],
+        "website": "www.website.com",
+        "allowsMultiplePurchases": true,
+        "productRoles": [
+            "ROLE_CONSUMER",
+            "ROLE_USER",
+            "ROLE_MARKETPLACE_USER"
+        ],
+        "config": {},
+        "ownerId": "bb28cae5-9b68-44d8-bae3-032aa362a5d3",
         "productUrl": "www.google.com/product/url",
         "version": "v1.0",
         "hostedApps": [],

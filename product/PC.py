@@ -4,7 +4,7 @@ import json
 
 
 # Load Excel data
-df = pd.read_excel('product_data.xlsx')
+df = pd.read_excel('product_data1.xlsx')
 df.fillna(0,inplace=True)
 
 # Convert to JSON
@@ -22,8 +22,7 @@ for index, row in df.iterrows():
     "productType": row['productType'],
     "logoUrl": row['logoUrl'],
     "productTags": [
-        "OTT",
-        "DATA CASTING"
+        row['productTags']
     ],
     "masterConfig": {
         "REST Api Controller": {
@@ -122,7 +121,7 @@ for index, row in df.iterrows():
         "ROLE_MARKETPLACE_USER"
     ],
     "config": {},
-    "ownerId": "64e1fd3d1443eb00018cc231",
+    "ownerId": row['ownerId'],
     "productUrl": row['productUrl'] or "www.google.com/product/url",
     "version": "v1.0",
     "hostedApps": [],
