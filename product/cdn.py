@@ -3,27 +3,35 @@ import http.client
 from codecs import encode
 import json
 
-def upload_image(file_path, file_name, headers, boundary):
-    conn = http.client.HTTPSConnection("ig.aidtaas.com")
+def upload_image(file_path, file_name, token):
+    conn = http.client.HTTPSConnection("ig.gov-cloud.ai")
 
     # Specify the CDN upload URL
-    upload_url = '/content-service/v1.0/content/upload/1154/64e1fd3d1443eb00018cc231/1154?overrideFile=true'
+    upload_url = '/mobius-content-service/v1.0/content/upload?filePathAccess=private&filePath=%2Fingestion'
+
+    # Specify the headers, including the authorization token
+    headers = {
+        'Authorization': f'Bearer {token}',
+        'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryvY13FvRix6AYKfSm',
+        'Accept': 'application/json, text/plain, */*',
+    }
 
     # Create the multipart/form-data payload
+    boundary = '----WebKitFormBoundaryvY13FvRix6AYKfSm'
     dataList = []
 
-    # Content-Disposition header for each file
-    dataList.append(encode('--' + boundary))
-    dataList.append(encode('Content-Disposition: form-data; name="file"; filename="{0}"'.format(file_name)))
-    dataList.append(encode('Content-Type: application/octet-stream'))  # Adjust the content type as needed
-    dataList.append(encode(''))
+    # Content-Disposition header for the file
+    dataList.append(encode(f'--{boundary}'))
+    dataList.append(encode(f'Content-Disposition: form-data; name="file"; filename="{file_name}"'))
+    dataList.append(encode('Content-Type: image/png'))  # Adjust the content type as needed
+    dataList.append(encode(''))  # Empty line before the file data
 
     # Read the file content and add it to the payload
     with open(file_path, 'rb') as f:
         dataList.append(f.read())
 
     # End of the payload
-    dataList.append(encode('--' + boundary + '--'))
+    dataList.append(encode(f'--{boundary}--'))
     dataList.append(encode(''))
 
     body = b'\r\n'.join(dataList)
@@ -37,7 +45,9 @@ def upload_image(file_path, file_name, headers, boundary):
 
     # Parse the response JSON to extract the CDN URL
     response_json = json.loads(data)
-    cdn_url = response_json['url']
+
+    cdn_url = "https://cdn.gov-cloud.ai/"+response_json['cdnUrl']
+    print(cdn_url)
 
     # Close the connection
     conn.close()
@@ -46,28 +56,10 @@ def upload_image(file_path, file_name, headers, boundary):
 
 def main():
     # Set the folder path containing the images
-    folder_path = 'logourl/'
+    folder_path = 'logourl-2/'
 
-    # Specify the boundary for multipart/form-data
-    boundary = 'wL36Yn8afVp8Ag7AmP8qZ0SA4n1v9T'
-
-    # Specify the headers
-    headers = {
-        'authority': 'ig.aidtaas.com',
-        'accept': 'application/json, text/plain, */*',
-        'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-        'authorization': 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImZmOGYxNjhmLTNmZjYtNDZlMi1iMTJlLWE2YTdlN2Y2YTY5MCJ9.eyJwcm9maWxlVXJsIjoid3d3Lmdvb2dsZS5jb20vcHJvZmlsZS9waWMiLCJyZWNlbnRfc2Vzc2lvbiI6Ik5BIiwic3ViIjoiZ2FpYW4uY29tIiwicGFyZW50VGVuYW50SWQiOiJOQSIsImNvbG9yIjoiYmxhY2siLCJ1c2VyX25hbWUiOiJ0ZW5hbnRfdWprc2VybmFtZSIsImlzcyI6ImdhaWFuLmNvbSIsImlzQWRtaW4iOnRydWUsInBsYXRmb3JtSWQiOiI2NTRiYWU2ZDdlYjkwNDAzZmI4YTE0OTciLCJ1c2VyTmFtZSI6InRlbmFudF91amtzZXJuYW1lIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9NQVJLRVRQTEFDRV9VU0VSIl0sImNsaWVudF9pZCI6ImdhaWFuIiwic2NvcGUiOlsidHJ1c3QiLCJyZWFkIiwid3JpdGUiXSwidGVuYW50SWQiOiI2NGUxZmQzZDE0NDNlYjAwMDE4Y2MyMzEiLCJsb2dvIjoid3d3Lmdvb2dsZS5jb20vdGVuYW50L2xvZ28ucG5nIiwiZXhwIjoxNzA0ODE4NjA0LCJqdGkiOiJmMGU5ZDQyMC1kNmE1LTRlNzgtODVkMi1mMGZkYzA3YmRhOGMiLCJlbWFpbCI6ImFwcHNAZ2FpYW5zb2x1dGlvbnMuY29tIn0.ZyBbjNdwTWwr0-uYvLpkRIIxLJ8z0njEuK6EkY4xJU5N0_5Dwq_PnhQIJCYz8u4sT7qnXX8l5C0JZy4BIqe0hiuK_7fRN1LDSaAhABbGxYxcn4KbW8WBD29YCk5prM1sEPjO8XD4BffwniaiJJXPJ2eK40X3gRiBv0oy9NS_pQaWSoEIaIUZ2C-W50U-fLli5g2hlPx4l_1APUJ0RE2LjmJQ2M6AmxHGb758YmKLM3X8meVbdrsdqfdXrjN2NTB2_nImYzMn_kkaGWY9v-N5dWwaMOO6eyyPv2SfpysavUQpip1dzjTAkd5sfT9UFB4K5U5uRmJ43rPnXYljz3zuhw',
-        'origin': 'https://holacracy.aidtaas.com',
-        'referer': 'https://holacracy.aidtaas.com/',
-        'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
-        'sec-ch-ua-mobile': '?0',
-        'sec-ch-ua-platform': '"Linux"',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Content-type': 'multipart/form-data; boundary={}'.format(boundary)
-    }
+    # Specify the authorization token
+    token = 'eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3Ny1NUVdFRTNHZE5adGlsWU5IYmpsa2dVSkpaWUJWVmN1UmFZdHl5ejFjIn0.eyJleHAiOjE3MjcyMjA0OTIsImlhdCI6MTcyNzE4NDQ5MiwianRpIjoiYzA2MTRmMGYtNzE1NC00NmQxLWExN2YtOTlkNzJlZTNkZGM2IiwiaXNzIjoiaHR0cDovL2tleWNsb2FrLmtleWNsb2FrLnN2Yy5jbHVzdGVyLmxvY2FsOjgwODAvcmVhbG1zL21hc3RlciIsImF1ZCI6WyJQQVNDQUxfSU5URUxMSUdFTkNFIiwiWFBYLUNMUyIsImNkZmciLCJhY2NvdW50Il0sInN1YiI6IjdjMmEwY2M1LTY5ODgtNDk5OS04ZjZkLTQ4MjM2MzQ4MmVlZiIsInR5cCI6IkJlYXJlciIsImF6cCI6IkhPTEFDUkFDWSIsInNlc3Npb25fc3RhdGUiOiJiNTA3OTNjNi1lMmU0LTQ5ZjgtOWZhMi00ODhlOWYzYjAyMDgiLCJuYW1lIjoibW9iaXVzIG1vYml1cyIsImdpdmVuX25hbWUiOiJtb2JpdXMiLCJmYW1pbHlfbmFtZSI6Im1vYml1cyIsInByZWZlcnJlZF91c2VybmFtZSI6InBhc3N3b3JkX3RlbmFudF9tb2JpdXNAbW9iaXVzZHRhYXMuYWkiLCJlbWFpbCI6InBhc3N3b3JkX3RlbmFudF9tb2JpdXNAbW9iaXVzZHRhYXMuYWkiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIvKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tYXN0ZXIiLCJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiUEFTQ0FMX0lOVEVMTElHRU5DRSI6eyJyb2xlcyI6WyJTVVBFUkFETUlOIl19LCJYUFgtQ01TIjp7InJvbGVzIjpbIlhQWC1DTVNfVVNFUiJdfSwiSE9MQUNSQUNZIjp7InJvbGVzIjpbIkhPTEFDUkFDWV9VU0VSIl19LCJjZGZnIjp7InJvbGVzIjpbIkJPTFRaTUFOTl9CT1RfVVNFUiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwic2lkIjoiYjUwNzkzYzYtZTJlNC00OWY4LTlmYTItNDg4ZTlmM2IwMjA4IiwidGVuYW50SWQiOiI3YzJhMGNjNS02OTg4LTQ5OTktOGY2ZC00ODIzNjM0ODJlZWYiLCJyZXF1ZXN0ZXJUeXBlIjoiVEVOQU5UIn0=.M4zY10BpCK2VNxRCtvRGhOjK_0hEie_BNOfzlbHezmT976--ZGGmv9KIdvhlQjjS_clsFhEF2PWDcrREskfDARUU_BlPPdku6O-6DRdsckQ_LdBMhoj0Vfh-xPB61dtRxNhLyby1gK7knPUsRZ1LfLcz_B8Zt_nbrnHk7Y7bNf6-NyxtclDrTZPS_oKFVOo0ybKqM17qIhbxs3z-0rHop3wPdCvL7gvkDtDoiP-OD6zPcUXwo-gNsJVkvU2f0RNLOtq0xcIeN4E97FrHGaGM_Y5_6qZUXuOW5EwCa7VSMOoGFRs6c_zY8vnou6cDgcP97VddewR_OsdBO7TddH8vLQ'
 
     # Create a dictionary to store image names and corresponding CDN URLs
     image_data_dict = {}
@@ -75,19 +67,15 @@ def main():
     # Iterate through each file in the folder
     for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
-
-        # Skip non-image files if needed
-        if not filename.lower().endswith(('.png', '.jpg', '.jpeg', '.gif')):
-            continue
-
+       
         # Upload the image and get the CDN URL
-        cdn_url = upload_image(file_path, filename, headers, boundary)
+        cdn_url = upload_image(file_path, filename, token)
 
         # Store the image name and CDN URL in the dictionary
         image_data_dict[filename] = cdn_url
 
     # Write the dictionary to a JSON file
-    json_file_path = 'logoCDN.json'
+    json_file_path = 'logourl-2/logoCDN.json'
     with open(json_file_path, 'w') as json_file:
         json.dump(image_data_dict, json_file, indent=2)
 

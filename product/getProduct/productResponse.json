@@ -1,0 +1,4783 @@
+{
+  "content": [
+    {
+      "id": "6687b13c5a9fc761c43bcd1e",
+      "plan": {
+        "rateCardIds": {
+          "GOLD": [
+            "66d07c94b1dbc9702f40478e"
+          ],
+          "SILVER": [
+            "668e18eb8205093c726fe448"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "PI",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Mobius Pi is an advanced data lakehouse platform designed to offer robust data integration, processing, and analytics capabilities. It combines the best features of data warehouses and data lakes to provide a comprehensive solution for handling large-scale data operations, both transactional (OLTP) and analytical (OLAP).",
+      "productType": "TP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/91dfc3e3-d66b-4218-b2f4-b226b1e06178_$$_V1_pi.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "6687b13c5a9fc761c43bcd1d",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720168764704,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1727084089556,
+      "createdTimeMs": 1720168764704,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {
+        "data": [
+          {
+            "Description": "PI offers codeless tools for visualizing data, making it easy to gain insights and make data-driven decisions.",
+            "imageUrl": "assets/images/product/product view 22.png",
+            "Title": "Data Visualisation"
+          },
+          {
+            "Description": "PI supports all three layers of big data processing - ingest, process, and serve - enabling enterprises to unlock the full potential of their data.",
+            "imageUrl": "assets/images/product/product view 27.png",
+            "Title": "Big Data Processing"
+          },
+          {
+            "Description": "PI provides tools for contextualising data and targeting specific groups, allowing businesses to personalise their offerings and improve customer experiences.",
+            "imageUrl": "assets/images/product/product view 23.png",
+            "Title": "Contextualisation and Targeting"
+          }
+        ]
+      },
+      "createdBy": "Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 5.0,
+      "commentCount": 1,
+      "allianceCount": 0,
+      "ratingCount": 1,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c0f2430b0b830ec5cebf9",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "668c187130b0b830ec5cec1b"
+          ],
+          "PLATINUM": [
+            "668c18e830b0b830ec5cec1e"
+          ],
+          "GOLD": [
+            "668c18c430b0b830ec5cec1d"
+          ],
+          "SILVER": [
+            "668c189930b0b830ec5cec1c"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Youtube",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "YouTube is a video-sharing platform where users can upload, watch, and share videos. Launched in 2005 and acquired by Google in 2006, it hosts a vast range of content, including music videos, tutorials, vlogs, and more. Users can subscribe to channels, comment on videos, and create playlists.",
+      "productType": "TP",
+      "logoUrl": "https://cdn.gov-cloud.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/bdc8d020-62c6-4866-888d-a60572bd0bc4_$$_V1_YouTube-logo-vector-PNG.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c0f2430b0b830ec5cebf8",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720454948684,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1724927989011,
+      "createdTimeMs": 1720454948684,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 2.0,
+      "commentCount": 3,
+      "allianceCount": 0,
+      "ratingCount": 3,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c100c30b0b830ec5cebfc",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "668c172630b0b830ec5cec17"
+          ],
+          "PLATINUM": [
+            "668c17c530b0b830ec5cec1a"
+          ],
+          "GOLD": [
+            "668c178c30b0b830ec5cec19"
+          ],
+          "SILVER": [
+            "668c175c30b0b830ec5cec18"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Slack",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Slack is a communication platform designed for teams and workplaces. It offers real-time messaging, file sharing, and integrations with various tools and services. Users can create channels for different topics, direct message individuals, and collaborate seamlessly.",
+      "productType": "TP",
+      "logoUrl": "https://cdn.gov-cloud.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/3d41d17e-17b1-40c0-a729-8a439d7fc197_$$_V1_Slack_icon_2019.svg.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c100c30b0b830ec5cebfb",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720455180168,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1723183206112,
+      "createdTimeMs": 1720455180168,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c1d7430b0b830ec5cec24",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba113efefec82e4820d272",
+            "66e3dcfe83d08979e96cef14"
+          ],
+          "PLATINUM": [
+            "66ba113efefec82e4820d274",
+            "66e3dd0083d08979e96cef15"
+          ],
+          "GOLD": [
+            "66ba113e9ef55a4cad1e1361",
+            "66e3dcffb1dbc9702f40497a"
+          ],
+          "SILVER": [
+            "66ba113efefec82e4820d273",
+            "66e3dcffb1dbc9702f404979"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "WhatsApp",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "WhatsApp is a messaging app that allows users to send text messages, voice messages, make voice and video calls, and share images, documents, and other media. ",
+      "productType": "TP",
+      "logoUrl": "https://cdn.gov-cloud.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/847a9003-06bf-4097-a90d-80936cfed99d_$$_V1_whatsapp.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c1d7430b0b830ec5cec23",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720458612036,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1723179529824,
+      "createdTimeMs": 1720458612036,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 1,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c0ac630b0b830ec5cebf1",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "668c244630b0b830ec5cec42"
+          ],
+          "PLATINUM": [
+            "668c243c30b0b830ec5cec41"
+          ],
+          "GOLD": [
+            "668c245530b0b830ec5cec44"
+          ],
+          "SILVER": [
+            "668c244d30b0b830ec5cec43"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Kepler",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Mobius",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_232da7d6-008e-425f-9e57-fc2ae005e87d/ingestion/895e36f0-c59d-4626-9e40-62ea55a3e15d_$$_V1_Kepler.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c0ac630b0b830ec5cebf0",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720453830929,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720459650985,
+      "createdTimeMs": 1720453830929,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Portal.team@mobiusdtaas.ai",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c2e3730b0b830ec5cec4e",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba10ed9ef55a4cad1e1346"
+          ],
+          "PLATINUM": [
+            "66ba10edfefec82e4820d25a"
+          ],
+          "GOLD": [
+            "66ba10ed9ef55a4cad1e1347",
+            "66d084c9b1dbc9702f40479f"
+          ],
+          "SILVER": [
+            "66ba10edfefec82e4820d259"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "VoteIQ",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "VoteIQ revolutionizes local governance by enabling citizens to participate in Panchayat Raj, manage cooperative services, and handle home-related tasks directly from their smart devices. This app empowers citizens to engage with their local government seamlessly, ensuring democratic processes are more accessible and participatory, ultimately strengthening community involvement and transparency in governance.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/68b498cc-12ad-4b3e-b17e-114bccae6cb3_$$_V1_voteiq.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c2e3730b0b830ec5cec4d",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720462903816,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720530450272,
+      "createdTimeMs": 1720462903816,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c113e30b0b830ec5cec00",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "668c236b30b0b830ec5cec2e",
+            "668c237330b0b830ec5cec2f"
+          ],
+          "PLATINUM": [
+            "668c239130b0b830ec5cec32"
+          ],
+          "GOLD": [
+            "668c238a30b0b830ec5cec31"
+          ],
+          "SILVER": [
+            "668c237f30b0b830ec5cec30"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "The weather-company",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Mobius",
+      "productType": "TP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/6a845d87-712e-4589-b015-427a40ef6144_$$_V1_The%20company%20wether.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c113e30b0b830ec5cebff",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720455486157,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1722328270441,
+      "createdTimeMs": 1720455486157,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "66950496b8561e10d7e5d437",
+      "plan": {
+        "rateCardIds": {},
+        "defaultRatecardId": null
+      },
+      "name": "ONDC",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Open Network for Digital Commerce, is a private non-profit Section 8 company established by the Department for Promotion of Industry and Internal Trade of Government of India to develop open e-commerce",
+      "productType": "TP",
+      "logoUrl": "",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "66950496b8561e10d7e5d436",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1721042070451,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1721196779341,
+      "createdTimeMs": 1721042070451,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c31fd30b0b830ec5cec5a",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba114dfefec82e4820d286"
+          ],
+          "PLATINUM": [
+            "66ba114efefec82e4820d288"
+          ],
+          "GOLD": [
+            "66ba114d9ef55a4cad1e1379"
+          ],
+          "SILVER": [
+            "66ba114dfefec82e4820d287"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "HearHere",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Hear, Here excels in marketing and public relations, ensuring citizens are aware of government services and benefits. It enhances the visibility and outreach of government programs through strategic communication efforts. This app keeps citizens informed and engaged, making government initiatives accessible and well-publicized",
+      "productType": "XP",
+      "logoUrl": "https://cdn.gov-cloud.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/6804a1a8-2a92-4bde-88f4-56afb61ccae0_$$_V1_here%20here.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c31fd30b0b830ec5cec59",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720463869655,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1723179358214,
+      "createdTimeMs": 1720463869655,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c30cb30b0b830ec5cec56",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba10eafefec82e4820d253"
+          ],
+          "PLATINUM": [
+            "66ba10ea9ef55a4cad1e1342",
+            "66d084c8b1dbc9702f40479d"
+          ],
+          "GOLD": [
+            "66ba10ea9ef55a4cad1e1341"
+          ],
+          "SILVER": [
+            "66ba10ea9ef55a4cad1e1340"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Museo",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Museo promotes handloom and textile sectors by offering artisans a platform to showcase their work, access markets, and receive government support. This app helps traditional crafts thrive, enriching cultural heritage and boosting economic opportunities for artisans. It preserves and promotes these crafts, ensuring their continued significance in modern society",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/b879c7bc-07ba-452f-a1b2-f1bce80ea80d_$$_V1_Screenshot%20from%202024-07-09%2000-02-35.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c30cb30b0b830ec5cec55",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720463563479,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720463563479,
+      "createdTimeMs": 1720463563479,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c0a2430b0b830ec5cebef",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba1149fefec82e4820d27f"
+          ],
+          "PLATINUM": [
+            "66ba114a9ef55a4cad1e1371"
+          ],
+          "GOLD": [
+            "66ba114a9ef55a4cad1e1370"
+          ],
+          "SILVER": [
+            "66ba1149fefec82e4820d280"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Tomorrow.io",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Mobius",
+      "productType": "TP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_232da7d6-008e-425f-9e57-fc2ae005e87d/ingestion/5f70aae8-e024-4b83-a450-0bdc50b26c6d_$$_V1_tomarrow.io.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c0a2430b0b830ec5cebee",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720453668236,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720459606021,
+      "createdTimeMs": 1720453668236,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Portal.team@mobiusdtaas.ai",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c32eb30b0b830ec5cec5e",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba1134fefec82e4820d25d"
+          ],
+          "PLATINUM": [
+            "66ba11349ef55a4cad1e134b"
+          ],
+          "GOLD": [
+            "66ba1134fefec82e4820d25e"
+          ],
+          "SILVER": [
+            "66ba11349ef55a4cad1e134a"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "SuperDashboard",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "The Super Dashboard monitors government services performance. Offering real-time insights and analytics, it helps nodal officers track effectiveness and efficiency. Super Dashboard empowers officials to make data-driven decisions and optimize public service delivery.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/7a673b4f-334d-4439-884a-cf768838a178_$$_V1_Screenshot%20from%202024-07-09%2000-11-24.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c32eb30b0b830ec5cec5d",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720464107519,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720464107519,
+      "createdTimeMs": 1720464107519,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c2fce30b0b830ec5cec52",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba114a9ef55a4cad1e1372"
+          ],
+          "PLATINUM": [
+            "66ba114bfefec82e4820d281"
+          ],
+          "GOLD": [
+            "66ba114b9ef55a4cad1e1374"
+          ],
+          "SILVER": [
+            "66ba114a9ef55a4cad1e1373"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "ImpressIO",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Impressio turns everyday objects into dynamic communication tools. It transforms highway signs into real-time incident alerts and local ad spaces into weather update platforms. This flexibility ensures citizens receive timely, relevant information through various channels, enhancing public communication and keeping the community informed and safe.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/5b8bf081-031d-44dc-b2a4-8bb864736761_$$_V1_Frame.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c2fce30b0b830ec5cec51",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720463310070,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720528832394,
+      "createdTimeMs": 1720463310070,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c337f30b0b830ec5cec62",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba11419ef55a4cad1e1365"
+          ],
+          "PLATINUM": [
+            "66ba11419ef55a4cad1e1367"
+          ],
+          "GOLD": [
+            "66ba11419ef55a4cad1e1366"
+          ],
+          "SILVER": [
+            "66ba1141fefec82e4820d27a"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Marco",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Marco models the impact, economics, costs, and revenues of government services. Supporting Finance departments and nodal officers, it provides critical insights for financial planning and decision-making. Marco offers economic models and cost-benefit analyses, helping governments optimize resource allocation and enhance sustainability.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/3ec11f81-13ce-4d0a-a134-4d20e9f4088d_$$_V1_Screenshot%20from%202024-07-09%2000-14-03.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c337f30b0b830ec5cec61",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720464255234,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720464255234,
+      "createdTimeMs": 1720464255234,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c1c7730b0b830ec5cec22",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba113f9ef55a4cad1e1362"
+          ],
+          "PLATINUM": [
+            "66ba113ffefec82e4820d275"
+          ],
+          "GOLD": [
+            "66ba113f9ef55a4cad1e1364"
+          ],
+          "SILVER": [
+            "66ba113f9ef55a4cad1e1363"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Instagram",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Instagram is a social media platform for sharing photos and videos. Launched in 2010 and acquired by Facebook in 2012, it allows users to post visual content, follow accounts, and interact through likes, comments, and direct messages. Features include stories, reels, and various editing tools.",
+      "productType": "TP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/5b1c33cc-0f06-48a7-b8a7-dfe6f9d9188e_$$_V1_instagram-logo-png-transparent-background.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c1c7730b0b830ec5cec21",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720458359494,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720530050313,
+      "createdTimeMs": 1720458359494,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "66962d7eb8561e10d7e5d439",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba11359ef55a4cad1e134c"
+          ],
+          "PLATINUM": [
+            "66ba1135fefec82e4820d260"
+          ],
+          "GOLD": [
+            "66ba1135fefec82e4820d25f"
+          ],
+          "SILVER": [
+            "66ba11359ef55a4cad1e134d"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "D2D ATSC3",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "  ",
+      "productType": "TP",
+      "logoUrl": "",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "66962d7eb8561e10d7e5d438",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1721118078705,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1721202169624,
+      "createdTimeMs": 1721118078705,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c0b2730b0b830ec5cebf3",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba11389ef55a4cad1e1357"
+          ],
+          "PLATINUM": [
+            "66ba1139fefec82e4820d266"
+          ],
+          "GOLD": [
+            "66ba1139fefec82e4820d265"
+          ],
+          "SILVER": [
+            "66ba1139fefec82e4820d264"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Facebook",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Facebook is a social media platform founded by Mark Zuckerberg in 2004. It allows users to create profiles, share photos and videos, send messages, and stay connected with friends and family. Users can also join groups, follow pages, and participate in events.",
+      "productType": "TP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/e1671c2a-85bc-49ee-9462-b2fa8bbb6fb6_$$_V1_facebook.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c0b2730b0b830ec5cebf2",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720453927270,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1721999294985,
+      "createdTimeMs": 1720453927270,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c342030b0b830ec5cec66",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba113a9ef55a4cad1e135a"
+          ],
+          "PLATINUM": [
+            "66ba113bfefec82e4820d26a"
+          ],
+          "GOLD": [
+            "66ba113bfefec82e4820d269"
+          ],
+          "SILVER": [
+            "66ba113a9ef55a4cad1e135b"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "CX Delight",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "CX Delight customizes Mobius applications by region and operator, ensuring tailored user experiences. It enhances service delivery and satisfaction by providing localized interfaces. CX Delight makes government services more relevant and user-friendly for diverse communities.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/1b910183-8398-4e8e-b856-e86e7195629c_$$_V1_Screenshot%20from%202024-07-09%2000-16-52.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c342030b0b830ec5cec65",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720464416284,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720464416284,
+      "createdTimeMs": 1720464416284,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c092b30b0b830ec5cebeb",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "668c13a830b0b830ec5cec05"
+          ],
+          "PLATINUM": [
+            "668c145e30b0b830ec5cec0a",
+            "668c231f30b0b830ec5cec2a"
+          ],
+          "GOLD": [
+            "668c142530b0b830ec5cec09",
+            "668c148630b0b830ec5cec0b"
+          ],
+          "SILVER": [
+            "668c140630b0b830ec5cec08"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Aegis",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Mobius",
+      "productType": "CP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_232da7d6-008e-425f-9e57-fc2ae005e87d/ingestion/e4691f05-144c-48d1-bbe5-d0348cd3288a_$$_V1_aegis_logo%202.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c092b30b0b830ec5cebea",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720453419781,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1724916846798,
+      "createdTimeMs": 1720453419781,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Portal.team@mobiusdtaas.ai",
+      "productOffering": "PRODUCT",
+      "rating": 3.5,
+      "commentCount": 6,
+      "allianceCount": 2,
+      "ratingCount": 6,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c333430b0b830ec5cec60",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba10ec9ef55a4cad1e1344"
+          ],
+          "PLATINUM": [
+            "66ba10ecfefec82e4820d258"
+          ],
+          "GOLD": [
+            "66ba10ecfefec82e4820d257"
+          ],
+          "SILVER": [
+            "66ba10ec9ef55a4cad1e1345",
+            "66d084c983d08979e96cede1"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Voxa",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Voxa markets government services across public and private platforms. Collaborating with Information, Public Relations, and Marketing departments, it ensures widespread awareness and engagement. Voxa leverages multiple channels to maximize the reach and impact of government programs, fostering public awareness and encouraging citizen participation in services.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/4bc5cb52-d6be-43f2-9ddc-2c6a9ec9fbed_$$_V1_Screenshot%20from%202024-07-09%2000-12-54.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c333430b0b830ec5cec5f",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720464180041,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720464180041,
+      "createdTimeMs": 1720464180041,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668e83dcc8fea21f886ddd4e",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba10e8fefec82e4820d24f"
+          ],
+          "PLATINUM": [
+            "66ba10e8fefec82e4820d251"
+          ],
+          "GOLD": [
+            "66ba10e89ef55a4cad1e133c"
+          ],
+          "SILVER": [
+            "66ba10e8fefec82e4820d250",
+            "66d084c883d08979e96ceddf"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Trigger Workflow",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "This product is used to trigger the next workflow.",
+      "productType": "TP",
+      "logoUrl": "",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668e83dcc8fea21f886ddd4d",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720615900574,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1721999307423,
+      "createdTimeMs": 1720615900574,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "66976ab893ba7a0ac793c7b1",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba114c9ef55a4cad1e1376"
+          ],
+          "PLATINUM": [
+            "66ba114dfefec82e4820d285"
+          ],
+          "GOLD": [
+            "66ba114c9ef55a4cad1e1378"
+          ],
+          "SILVER": [
+            "66ba114c9ef55a4cad1e1377"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Mobius_Agent",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Mobius agent ",
+      "productType": "TP",
+      "logoUrl": "",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "66976ab893ba7a0ac793c7b0",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1721199288221,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1723530133545,
+      "createdTimeMs": 1721199288221,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c33e030b0b830ec5cec64",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba11369ef55a4cad1e1351"
+          ],
+          "PLATINUM": [
+            "66ba1137fefec82e4820d262"
+          ],
+          "GOLD": [
+            "66ba11379ef55a4cad1e1353"
+          ],
+          "SILVER": [
+            "66ba11379ef55a4cad1e1352"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Quirto",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "TedaaS integrates gamification, rewards, and incentives to promote government services adoption. Collaborating with nodal officers and program secretaries, it designs engaging frameworks to encourage citizen participation. TedaaS enhances user engagement and drives higher adoption rates for public programs.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/b6c0370b-9411-40ba-b838-3c47e548f7fa_$$_V1_Screenshot%20from%202024-07-09%2000-15-38.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c33e030b0b830ec5cec63",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720464352686,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1721998105721,
+      "createdTimeMs": 1720464352686,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "6675217b72fb483cdd3be10a",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba10e99ef55a4cad1e133d"
+          ],
+          "PLATINUM": [
+            "66ba10e99ef55a4cad1e133f"
+          ],
+          "GOLD": [
+            "66ba10e99ef55a4cad1e133e",
+            "66d084c883d08979e96cede0"
+          ],
+          "SILVER": [
+            "66ba10e9fefec82e4820d252",
+            "66e3d54883d08979e96cee99"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Product_negotiation_testing3",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "weather service provider",
+      "productType": "XP",
+      "logoUrl": "https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "6675217b72fb483cdd3be109",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1718952315550,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1721999006553,
+      "createdTimeMs": 1718952315550,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 4.0,
+      "commentCount": 3,
+      "allianceCount": 3,
+      "ratingCount": 3,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c11e230b0b830ec5cec02",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "668c23a430b0b830ec5cec33"
+          ],
+          "PLATINUM": [
+            "668c23c230b0b830ec5cec38"
+          ],
+          "GOLD": [
+            "668c23b430b0b830ec5cec35"
+          ],
+          "SILVER": [
+            "668c23ab30b0b830ec5cec34"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "CLink",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "CLink",
+      "productType": "TP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/81b7d21a-152a-44bd-bc1b-ca3d85b03a25_$$_V1_clink%20logo%202.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c11e230b0b830ec5cec01",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720455650553,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1725033135733,
+      "createdTimeMs": 1720455650553,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c161730b0b830ec5cec13",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "668c23fa30b0b830ec5cec3d"
+          ],
+          "PLATINUM": [
+            "668c241d30b0b830ec5cec40"
+          ],
+          "GOLD": [
+            "668c241630b0b830ec5cec3f"
+          ],
+          "SILVER": [
+            "668c240330b0b830ec5cec3e"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "BOB",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "BoB, or Boltzmann's Bot, is an advanced API orchestration layer designed to enhance how businesses interact with and leverage their data within the Mobius platform.",
+      "productType": "IP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/86fd9903-5283-4628-bb04-26b14668fa42_$$_V1_bob.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c161730b0b830ec5cec12",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720456727756,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1723785082259,
+      "createdTimeMs": 1720456727756,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "66978c9c93ba7a0ac793c7b3",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba11379ef55a4cad1e1354"
+          ],
+          "PLATINUM": [
+            "66ba11389ef55a4cad1e1356"
+          ],
+          "GOLD": [
+            "66ba1138fefec82e4820d263"
+          ],
+          "SILVER": [
+            "66ba11389ef55a4cad1e1355"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Marketplace_new",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "make the bricks for that",
+      "productType": "TP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/2039e931-9e61-4c86-955b-0e54ce27380a_$$_V1_dummy.jpg",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "66978c9c93ba7a0ac793c7b2",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1721207964064,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1723030415186,
+      "createdTimeMs": 1721207964064,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668e80d3c8fea21f886ddd4c",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba1140fefec82e4820d276"
+          ],
+          "PLATINUM": [
+            "66ba1140fefec82e4820d279"
+          ],
+          "GOLD": [
+            "66ba1140fefec82e4820d278"
+          ],
+          "SILVER": [
+            "66ba1140fefec82e4820d277"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "The Base 64",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": " ",
+      "productType": "TP",
+      "logoUrl": "",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668e80d3c8fea21f886ddd4b",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720615123880,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720615123880,
+      "createdTimeMs": 1720615123880,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c1ede30b0b830ec5cec28",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba114e9ef55a4cad1e137a"
+          ],
+          "PLATINUM": [
+            "66ba114f9ef55a4cad1e137c"
+          ],
+          "GOLD": [
+            "66ba114e9ef55a4cad1e137b"
+          ],
+          "SILVER": [
+            "66ba114efefec82e4820d289"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "GoDaddy",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "GoDaddy is a web hosting and domain registration service. Founded in 1997, it provides a range of services including domain name registration, website building, web hosting, and online marketing tools. GoDaddy caters to individuals, small businesses, and enterprises looking to establish an online presence.",
+      "productType": "TP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/f9c34099-facc-42f0-9b26-001ef7e2993d_$$_V1_GoDaddy.jpg",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c1ede30b0b830ec5cec27",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720458974573,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1723552044654,
+      "createdTimeMs": 1720458974573,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c09bc30b0b830ec5cebed",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "668c155630b0b830ec5cec0c"
+          ],
+          "PLATINUM": [
+            "668c161b30b0b830ec5cec14"
+          ],
+          "GOLD": [
+            "668c15e930b0b830ec5cec10",
+            "668c15f330b0b830ec5cec11"
+          ],
+          "SILVER": [
+            "668c15cb30b0b830ec5cec0f"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "IZAK",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Mobius",
+      "productType": "IP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_232da7d6-008e-425f-9e57-fc2ae005e87d/ingestion/3c61245a-0302-434b-a192-2cb75a28cb4a_$$_V1_iZak%20logo.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c09bc30b0b830ec5cebec",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720453564857,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720459236160,
+      "createdTimeMs": 1720453564857,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Portal.team@mobiusdtaas.ai",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c0c8930b0b830ec5cebf5",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "668c246630b0b830ec5cec45"
+          ],
+          "SILVER": [
+            "668c247130b0b830ec5cec46",
+            "668d09218205093c726fe447"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "OpenWeatherMap",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "OpenWeatherMap",
+      "productType": "TP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/cbedbf10-3c0b-4553-a7a6-fe2e41673a5c_$$_V1_openwethermap.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c0c8930b0b830ec5cebf4",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720454281566,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720454281566,
+      "createdTimeMs": 1720454281566,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 1,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c29a230b0b830ec5cec48",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba10e69ef55a4cad1e133a"
+          ],
+          "PLATINUM": [
+            "66b3585bfefec82e4820d23d"
+          ],
+          "GOLD": [
+            "66b358129ef55a4cad1e132a"
+          ],
+          "SILVER": [
+            "66b357d09ef55a4cad1e1329"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "MXaaS",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Marketplace as a Service",
+      "productType": "XP",
+      "logoUrl": "jjuuhyhg",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c29a230b0b830ec5cec47",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720461730788,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720529910436,
+      "createdTimeMs": 1720461730788,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 2,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c315030b0b830ec5cec58",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba11359ef55a4cad1e134e"
+          ],
+          "PLATINUM": [
+            "66ba11369ef55a4cad1e1350"
+          ],
+          "GOLD": [
+            "66ba11369ef55a4cad1e134f"
+          ],
+          "SILVER": [
+            "66ba1136fefec82e4820d261"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "MO",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Mo ensures government messages reach the public effectively through diverse communication channels. It fosters transparency and engagement by keeping citizens informed about government announcements and updates. This app strengthens the relationship between the government and citizens, enhancing trust and ensuring that important information is widely disseminated.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/0936f6ff-61bb-44ef-9223-b2ed7c0eb99a_$$_V1_mooooocolour%201.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c315030b0b830ec5cec57",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720463696381,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720530513525,
+      "createdTimeMs": 1720463696381,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c349c30b0b830ec5cec6a",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba1142fefec82e4820d27d"
+          ],
+          "PLATINUM": [
+            "66ba11439ef55a4cad1e136c"
+          ],
+          "GOLD": [
+            "66ba11439ef55a4cad1e136b"
+          ],
+          "SILVER": [
+            "66ba11439ef55a4cad1e136a"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "AdWize1",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "AdWize operates a programmatic ad exchange for marketing and public relations campaigns. Working with marketing departments, it optimizes ad placements to maximize message reach and impact. AdWize uses advanced targeting and analytics for efficient government campaigns.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/161bb23f-2b8e-4731-b246-218d9729606e_$$_V1_Screenshot%20from%202024-07-09%2000-18-56.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c349c30b0b830ec5cec69",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720464540764,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1723617955539,
+      "createdTimeMs": 1720464540764,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668e66804b755826842e2741",
+      "plan": {
+        "rateCardIds": {
+          "PLATINUM": [
+            "668e6c784b755826842e2745",
+            "668e6cbc4b755826842e2746"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "PI",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Mobius",
+      "productType": "TP",
+      "logoUrl": "jjuuhyhg",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668e66804b755826842e2740",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720608384800,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1727083977606,
+      "createdTimeMs": 1720608384800,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Portal.team@mobiusdtaas.ai Portal.team@mobiusdtaas.ai",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c0e7b30b0b830ec5cebf7",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba10ebfefec82e4820d254",
+            "66d084c9b1dbc9702f40479e"
+          ],
+          "PLATINUM": [
+            "66ba10eb9ef55a4cad1e1343"
+          ],
+          "GOLD": [
+            "66ba10ebfefec82e4820d256"
+          ],
+          "SILVER": [
+            "66ba10ebfefec82e4820d255",
+            "66c8740fb1dbc9702f4045bd"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "WHUT - TV",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Mobius",
+      "productType": "IP",
+      "logoUrl": "https://cdn.gov-cloud.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/d1c36a1d-f5bf-47ce-afbb-8811e5b51f1c_$$_V1_mhut-tv.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c0e7b30b0b830ec5cebf6",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720454779274,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1723184825345,
+      "createdTimeMs": 1720454779274,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c346230b0b830ec5cec68",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba113bfefec82e4820d26b"
+          ],
+          "PLATINUM": [
+            "66ba113cfefec82e4820d26d"
+          ],
+          "GOLD": [
+            "66ba113cfefec82e4820d26c"
+          ],
+          "SILVER": [
+            "66ba113b9ef55a4cad1e135c"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "CMS",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "CMS manages content for all government services, ensuring accuracy and accessibility. It supports nodal officers in maintaining up-to-date information across platforms. CMS enhances transparency and trust in government communications by centralizing content management.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/0cab509c-e50b-4b3c-837f-cec240314889_$$_V1_Screenshot%20from%202024-07-09%2000-17-58.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c346230b0b830ec5cec67",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720464482647,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720464482647,
+      "createdTimeMs": 1720464482647,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c1e3530b0b830ec5cec26",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba114b9ef55a4cad1e1375"
+          ],
+          "PLATINUM": [
+            "66ba114cfefec82e4820d284"
+          ],
+          "GOLD": [
+            "66ba114cfefec82e4820d283"
+          ],
+          "SILVER": [
+            "66ba114bfefec82e4820d282"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Gmail",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Gmail is a free email service developed by Google. Launched in 2004, it offers a user-friendly interface, large storage capacity, and powerful search capabilities. Gmail integrates with other Google services and supports features such as spam filtering, customizable labels, and advanced security options like two-factor authentication.",
+      "productType": "TP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/80b4e199-69f5-4311-bf8e-f70368e6c537_$$_V1_Gmail-Logo-PNG-Transparent-Image.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c1e3530b0b830ec5cec25",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720458805282,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1724822024055,
+      "createdTimeMs": 1720458805282,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c2b8630b0b830ec5cec4c",
+      "plan": {
+        "rateCardIds": {
+          "PLATINUM": [
+            "668fdb8cc8fea21f886ddd55"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "VINCI",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": " ",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/f93bc5d6-8446-4467-a159-8a75d76f3271_$$_V1_vinci.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c2b8630b0b830ec5cec4b",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720462214016,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720547152041,
+      "createdTimeMs": 1720462214016,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 1,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c327e30b0b830ec5cec5c",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba113dfefec82e4820d26e",
+            "66e3dcfdb1dbc9702f404977"
+          ],
+          "PLATINUM": [
+            "66ba113efefec82e4820d271",
+            "66e3dcfeb1dbc9702f404978"
+          ],
+          "GOLD": [
+            "66ba113dfefec82e4820d270",
+            "66e3dcfe83d08979e96cef13"
+          ],
+          "SILVER": [
+            "66ba113dfefec82e4820d26f",
+            "66e3dcfe83d08979e96cef12"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "REVEE",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Revee offers media and TV streaming services tailored for government communication. It broadcasts public service announcements, educational content, and entertainment, keeping citizens informed and engaged. This app supports government outreach efforts by providing a platform for sharing important information and engaging content with the community.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/09527cd5-74ce-4a70-ae72-10b3dad23ade_$$_V1_revee%201.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c327e30b0b830ec5cec5b",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720463998855,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720528952932,
+      "createdTimeMs": 1720463998855,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "6694b76bc8fea21f886ddd65",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba11339ef55a4cad1e1348"
+          ],
+          "PLATINUM": [
+            "66ba11339ef55a4cad1e1349",
+            "66d084ca83d08979e96cede2"
+          ],
+          "GOLD": [
+            "66ba1133fefec82e4820d25c"
+          ],
+          "SILVER": [
+            "66ba1133fefec82e4820d25b"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "FastApi",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "mobius",
+      "productType": "TP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/9d56fb82-a1c4-4f64-a812-6798527c541b_$$_V1_fastapiimg.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "6694b76bc8fea21f886ddd64",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1721022315726,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1721299640241,
+      "createdTimeMs": 1721022315726,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c35b530b0b830ec5cec70",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba113c9ef55a4cad1e135d"
+          ],
+          "PLATINUM": [
+            "66ba113d9ef55a4cad1e1360"
+          ],
+          "GOLD": [
+            "66ba113c9ef55a4cad1e135f"
+          ],
+          "SILVER": [
+            "66ba113c9ef55a4cad1e135e"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "MIB",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "MIB is a project management tool that integrates with systems like Jira or Asana. It evaluates sprint efforts, grooms sprints, identifies leaders and laggards, and rewards performance. MIB provides comprehensive oversight and analytics for efficient project managemen",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/706f1cbb-1017-43ea-908e-9c70c7da7b87_$$_V1_Screenshot%20from%202024-07-09%2000-23-35.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c35b530b0b830ec5cec6f",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720464821212,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720464821212,
+      "createdTimeMs": 1720464821212,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c304d30b0b830ec5cec54",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba1143fefec82e4820d27e"
+          ],
+          "PLATINUM": [
+            "66ba11499ef55a4cad1e136f"
+          ],
+          "GOLD": [
+            "66ba11499ef55a4cad1e136e"
+          ],
+          "SILVER": [
+            "66ba11439ef55a4cad1e136d"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Around",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Atlas manages land surveys, agriculture, and warehouses efficiently. It supports resource utilization and agricultural development by facilitating detailed land management and logistics planning. This ensures that land resources are used wisely, boosting productivity and sustainability, and supporting agricultural growth for the benefit of all citizens.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/e7defb56-a4ab-40d1-9f21-0386ae374f74_$$_V1_around.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c304d30b0b830ec5cec53",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720463437594,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1723785004906,
+      "createdTimeMs": 1720463437594,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c111030b0b830ec5cebfe",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "668c227730b0b830ec5cec29"
+          ],
+          "PLATINUM": [
+            "668c235130b0b830ec5cec2d"
+          ],
+          "GOLD": [
+            "668c233030b0b830ec5cec2c"
+          ],
+          "SILVER": [
+            "668c232830b0b830ec5cec2b"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Here Here",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Mobius",
+      "productType": "IP",
+      "logoUrl": "https://cdn.gov-cloud.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/95b986a6-6604-4072-a812-5e850da68eac_$$_V1_here%20here.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING",
+        "UX"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c111030b0b830ec5cebfd",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720455440057,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1723179305674,
+      "createdTimeMs": 1720455440057,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 3,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c34ec30b0b830ec5cec6c",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba11399ef55a4cad1e1358"
+          ],
+          "PLATINUM": [
+            "66ba113a9ef55a4cad1e1359"
+          ],
+          "GOLD": [
+            "66ba113afefec82e4820d268"
+          ],
+          "SILVER": [
+            "66ba113afefec82e4820d267"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "MoScribe",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "MoScribe streamlines citizen and organization enrollment into new services. It simplifies onboarding, making government programs accessible through the Citizen Services department. MoScribe enhances service accessibility and encourages broader participation.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/65e5963f-7165-46d7-b473-afd57b38304d_$$_V1_Screenshot%20from%202024-07-09%2000-19-59.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c34ec30b0b830ec5cec6b",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720464620251,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720464620251,
+      "createdTimeMs": 1720464620251,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c159930b0b830ec5cec0e",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "668c23d130b0b830ec5cec39"
+          ],
+          "PLATINUM": [
+            "668c23ea30b0b830ec5cec3c"
+          ],
+          "GOLD": [
+            "668c23e330b0b830ec5cec3b"
+          ],
+          "SILVER": [
+            "668c23dc30b0b830ec5cec3a"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Monet",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Mobius",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/1962a31e-7350-48d7-a59a-bc08161c56d8_$$_V1_monet.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c159930b0b830ec5cec0d",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720456601053,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720547069960,
+      "createdTimeMs": 1720456601053,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c351d30b0b830ec5cec6e",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba1141fefec82e4820d27b"
+          ],
+          "PLATINUM": [
+            "66ba1142fefec82e4820d27c"
+          ],
+          "GOLD": [
+            "66ba11429ef55a4cad1e1369"
+          ],
+          "SILVER": [
+            "66ba11429ef55a4cad1e1368"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "SMS",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "SMS manages citizen accounts, devices, passwords, and security. Crucial for IT departments, it ensures data integrity and seamless account management. SMS provides robust security and user-friendly tools, protecting sensitive information and maintaining trust.",
+      "productType": "XP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/5b9f783c-0d91-4320-a56b-02fddc4c5f96_$$_V1_Screenshot%20from%202024-07-09%2000-21-01.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c351d30b0b830ec5cec6d",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720464669346,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1720464669346,
+      "createdTimeMs": 1720464669346,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "668c13be30b0b830ec5cec07",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba10e69ef55a4cad1e133a",
+            "66c87858b1dbc9702f4045f8",
+            "66d084c7b1dbc9702f40479c",
+            "66d084cab1dbc9702f4047a0"
+          ],
+          "PLATINUM": [
+            "66ba10e7fefec82e4820d24e"
+          ],
+          "GOLD": [
+            "66ba10e7fefec82e4820d24d"
+          ],
+          "SILVER": [
+            "66ba10e79ef55a4cad1e133b",
+            "66c895a983d08979e96ced9d",
+            "66c8974d83d08979e96ced9e"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Here Maps",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "Engagements",
+      "productType": "TP",
+      "logoUrl": "https://cdn.gov-cloud.ai//_3037df6b-a4a5-4156-a128-d0e7da39c078/ingestion/3acd11c3-50a8-423b-87e3-feed87f1cd7e_$$_V1_here%20maps.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "668c13be30b0b830ec5cec06",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1720456126864,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1723179338157,
+      "createdTimeMs": 1720456126864,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "Paid",
+        "AD_BASED"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "669603f575f6360d5ce33b02",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba1150fefec82e4820d28b"
+          ],
+          "PLATINUM": [
+            "66ba1151fefec82e4820d28c"
+          ],
+          "GOLD": [
+            "66ba11509ef55a4cad1e1381"
+          ],
+          "SILVER": [
+            "66ba11509ef55a4cad1e1380"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "FastApi",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "mobius",
+      "productType": "TP",
+      "logoUrl": "https://cdn.mobiusdtaas.ai//_2cf76e5f-26ad-4f2c-bccc-f4bc1e7bfb64/ingestion/d255fdff-6ff6-4304-b581-1a087e26e0f7_$$_V1_fastapiimg.png",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "669603f575f6360d5ce33b01",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1721107445543,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1721107445543,
+      "createdTimeMs": 1721107445543,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Aidtaas Aidtaas",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    },
+    {
+      "id": "669e35e799f8b31c3e515fc4",
+      "plan": {
+        "rateCardIds": {
+          "TRIAL": [
+            "66ba114f9ef55a4cad1e137d"
+          ],
+          "PLATINUM": [
+            "66ba1150fefec82e4820d28a"
+          ],
+          "GOLD": [
+            "66ba114f9ef55a4cad1e137f"
+          ],
+          "SILVER": [
+            "66ba114f9ef55a4cad1e137e"
+          ]
+        },
+        "defaultRatecardId": null
+      },
+      "name": "Revee Channel Data",
+      "platformId": "664afc3caf2dfa4e7eeda5db",
+      "parentPlatformId": "664afc3caf2dfa4e7eeda5db",
+      "description": "channel data ",
+      "productType": "XP",
+      "logoUrl": "",
+      "productTags": [
+        "OTT",
+        "DATA CASTING"
+      ],
+      "masterConfig": {},
+      "productMasterConfigId": "669e35e799f8b31c3e515fc3",
+      "servingAreas": [],
+      "snapshotsUrls": [],
+      "activeSince": 1721644518752,
+      "relatedInformation": "Dont know what sort of related information.",
+      "attachedDocumentsUrls": [],
+      "videoUrls": [],
+      "videos": [],
+      "website": "www.website.com",
+      "updatedTimeMs": 1721644518752,
+      "createdTimeMs": 1721644518752,
+      "allowsMultiplePurchases": true,
+      "active": true,
+      "productRoles": [
+        "ROLE_CONSUMER",
+        "ROLE_USER",
+        "ROLE_MARKETPLACE_USER"
+      ],
+      "config": {},
+      "ownerId": "7c2a0cc5-6988-4999-8f6d-482363482eef",
+      "version": "v1.0",
+      "productUrl": "www.google.com/product/url",
+      "hostedApps": [],
+      "domain": "",
+      "interestedTenants": [],
+      "productStatus": "PENDING_AT_SU",
+      "currency": "USD",
+      "visibility": "PUBLIC",
+      "plpConfiguration": {
+        "plpDetails": null
+      },
+      "participation": "OPEN",
+      "listing": "PUBLIC",
+      "vendorCommercials": [],
+      "salesCount": 0,
+      "vendorCount": 0,
+      "alliancedProduct": "",
+      "schemaNodes": [],
+      "universeNodes": [],
+      "groupNodes": [],
+      "contextNodes": [],
+      "aqNodes": [],
+      "templateNodes": [],
+      "chartNodes": [],
+      "baNodes": [],
+      "engagementNodes": [],
+      "wfNodes": [],
+      "mappingNode": [],
+      "metaData": {},
+      "createdBy": "Mobius Mobius",
+      "productOffering": "PRODUCT",
+      "rating": 0.0,
+      "commentCount": 0,
+      "allianceCount": 0,
+      "ratingCount": 0,
+      "prices": [
+        "AD_BASED",
+        "Paid"
+      ],
+      "constructType": "BA",
+      "constructId": "123",
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false,
+      "fallbackPublicClient": true
+    }
+  ],
+  "pageable": {
+    "pageNumber": 0,
+    "pageSize": 50,
+    "sort": {
+      "unsorted": true,
+      "sorted": false,
+      "empty": true
+    },
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalPages": 4,
+  "totalElements": 162,
+  "last": false,
+  "numberOfElements": 50,
+  "first": true,
+  "size": 50,
+  "number": 0,
+  "sort": {
+    "unsorted": true,
+    "sorted": false,
+    "empty": true
+  },
+  "empty": false
+}

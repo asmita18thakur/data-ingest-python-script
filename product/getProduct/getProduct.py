@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import json
 
 # API endpoint and headers
 url = 'https://ig.gov-cloud.ai/hcy-web/v1.0/product/platform/filter?platformId=664afc3caf2dfa4e7eeda5db&productOffering=PRODUCT&size=50&page=0'
@@ -15,7 +16,8 @@ response = requests.get(url, headers=headers)
 # Check if the response was successful
 if response.status_code == 200:
     data = response.json()  # Parse the JSON response
-    print(data)
+    with open('productResponse.json', 'w') as json_file :
+        json.dump(data, json_file, indent=2)
     # Assuming the data contains a list of products in a key called 'products'
     if 'content' in data and data['content']:
         # Convert the JSON data into a DataFrame

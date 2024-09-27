@@ -18,15 +18,13 @@ validity_to = (datetime.datetime.now() + three_years).timestamp()
 json_data = []
 for index, row in df.iterrows():
     # Generate a unique name and description for each payload
-    name = f"Ratecard_{row['name']}"
-    description = f"Ratecard description for {name}"
 
     # Create the payload
     data = {
-        "name": row['name'],
-        "description": description,
-        "platformId": row['platformId'],
-        "rateCardType": row['rateCardType'],
+        "name": row['Rate Card Name'],
+        "description": row['Description'],
+        "platformId": "66f2dec4b1dbc9702f4049b7",
+        "rateCardType": row['Rate Card Type'],
         "paasFee": {
             "fixedFee": row['paas'],
             "baseFee": "0.0",
@@ -41,7 +39,7 @@ for index, row in df.iterrows():
         "apiCountFee": {
             "validityFrom": today,
             "validityTo": validity_to,
-            "perApiFee": 122.5,
+            "perApiFee": row["apicount"],
             "apiLimit": 25,
             "baseFee": 12
         },

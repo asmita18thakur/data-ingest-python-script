@@ -1,0 +1,566 @@
+[
+    {
+        "id": "b6508d28-f6bb-4906-bd26-ee820286fc13",
+        "countryCode": "500032",
+        "description": "Advanced Electronics Company",
+        "name": "Advanced Electronics Company",
+        "emailId": "a*****@*mail.com",
+        "organisationId": "664af8d0c002126e0518a9d1",
+        "updatedTimeMs": 1726241308444,
+        "createdTimeMs": 1726169542164,
+        "dmas": [],
+        "selectedTags": [],
+        "telephoneNum": "******2195",
+        "interestedProducts": [],
+        "address": {
+            "addressLine1": "gachibowil telengana",
+            "city": "hyderabad",
+            "state": "Telangana",
+            "longitude": 58.3829,
+            "latitude": 23.588,
+            "postCode": "500032",
+            "country": "India",
+            "type": "PRIMARY"
+        },
+        "active": true,
+        "currenciesSupported": [
+            "INR"
+        ],
+        "userName": "aec",
+        "firstName": "aec",
+        "lastName": "aec@gmail.com",
+        "parentTenantId": "",
+        "product": {},
+        "platformsIds": [
+            "66e32b51b1dbc9702f4048a6"
+        ],
+        "userType": "TENANT",
+        "platformDetails": {
+            "66e32b51b1dbc9702f4048a6": [
+                "TP"
+            ],
+            "66e32a6e83d08979e96cee35": [
+                "TP"
+            ],
+            "66e2e76d83d08979e96cee34": [
+                "TP"
+            ],
+            "664afc3caf2dfa4e7eeda5db": [
+                "AP"
+            ]
+        },
+        "defaultCurrency": "SAR"
+    },
+    {
+        "id": "e25f6279-9f44-4a30-8957-6f8dd60bb779",
+        "countryCode": "500032",
+        "description": "Elm Company",
+        "name": "Elm Company",
+        "emailId": "e*****@gmail.com",
+        "organisationId": "664af8d0c002126e0518a9d1",
+        "createdTimeMs": 1726169607969,
+        "dmas": [],
+        "selectedTags": [],
+        "telephoneNum": "******2357",
+        "interestedProducts": [],
+        "address": {
+            "addressLine1": "gachibowil telengana",
+            "city": "hyderabad",
+            "state": "Telangana",
+            "longitude": 54.082,
+            "latitude": 17.017,
+            "postCode": "500032",
+            "country": "India",
+            "type": "PRIMARY"
+        },
+        "active": true,
+        "currenciesSupported": [
+            "INR"
+        ],
+        "userName": "elm",
+        "firstName": "elm",
+        "lastName": "elm@gmail.com",
+        "parentTenantId": "",
+        "product": {},
+        "platformsIds": [
+            "66e32b51b1dbc9702f4048a6"
+        ],
+        "userType": "TENANT",
+        "platformDetails": {
+            "664afc3caf2dfa4e7eeda5db": [
+                "AP"
+            ],
+            "66e2e76d83d08979e96cee34": [
+                "TP"
+            ],
+            "66e32b51b1dbc9702f4048a6": [
+                "TP"
+            ],
+            "66e32a6e83d08979e96cee35": [
+                "TP"
+            ]
+        },
+        "defaultCurrency": "SAR"
+    },
+    {
+        "id": "85a50f03-3136-48ff-b0e2-7a933cc8b732",
+        "countryCode": "500032",
+        "description": "Zain Saudi Arabia",
+        "name": "Zain Saudi Arabia",
+        "emailId": "mo*****ly@gmail.com",
+        "organisationId": "664af8d0c002126e0518a9d1",
+        "createdTimeMs": 1726169657474,
+        "dmas": [],
+        "selectedTags": [],
+        "telephoneNum": "******8079",
+        "interestedProducts": [],
+        "address": {
+            "addressLine1": "gachibowil telengana",
+            "city": "hyderabad",
+            "state": "Telangana",
+            "longitude": 54.082,
+            "latitude": 17.017,
+            "postCode": "500032",
+            "country": "India",
+            "type": "PRIMARY"
+        },
+        "active": true,
+        "currenciesSupported": [
+            "INR"
+        ],
+        "userName": "mobily",
+        "firstName": "mobily",
+        "lastName": "mobily@gmail.com",
+        "parentTenantId": "",
+        "product": {},
+        "platformsIds": [
+            "66e32b51b1dbc9702f4048a6"
+        ],
+        "userType": "TENANT",
+        "platformDetails": {
+            "664afc3caf2dfa4e7eeda5db": [
+                "AP"
+            ],
+            "66e2e76d83d08979e96cee34": [
+                "IP"
+            ],
+            "66e32b51b1dbc9702f4048a6": [
+                "IP"
+            ],
+            "66e32a6e83d08979e96cee35": [
+                "IP"
+            ]
+        },
+        "defaultCurrency": "SAR"
+    },
+    {
+        "id": "0fea168b-df6b-4c36-b139-490ff00d2159",
+        "countryCode": "500032",
+        "description": "Al Khaleej Advertisement",
+        "name": "Al Khaleej Advertisement",
+        "emailId": "a*****@gmail.com",
+        "organisationId": "664af8d0c002126e0518a9d1",
+        "createdTimeMs": 1726169696321,
+        "dmas": [],
+        "selectedTags": [],
+        "telephoneNum": "******6673",
+        "interestedProducts": [],
+        "address": {
+            "addressLine1": "gachibowil telengana",
+            "city": "hyderabad",
+            "state": "Telangana",
+            "longitude": 54.082,
+            "latitude": 17.017,
+            "postCode": "500032",
+            "country": "India",
+            "type": "PRIMARY"
+        },
+        "active": true,
+        "currenciesSupported": [
+            "INR"
+        ],
+        "userName": "aka",
+        "firstName": "aka",
+        "lastName": "aka@gmail.com",
+        "parentTenantId": "",
+        "product": {},
+        "platformsIds": [
+            "66e32b51b1dbc9702f4048a6"
+        ],
+        "userType": "TENANT",
+        "platformDetails": {
+            "664afc3caf2dfa4e7eeda5db": [
+                "AP"
+            ],
+            "66e2e76d83d08979e96cee34": [
+                "AP"
+            ],
+            "66e32b51b1dbc9702f4048a6": [
+                "AP"
+            ],
+            "66e32a6e83d08979e96cee35": [
+                "AP"
+            ]
+        },
+        "defaultCurrency": "SAR"
+    },
+    {
+        "id": "1ccc67d7-43d1-4f7d-bc44-7994e2321641",
+        "countryCode": "500032",
+        "description": "Oman Ministry and Tatweer",
+        "name": "Oman Ministry and Tatweer",
+        "emailId": "t*****@gmail.com",
+        "organisationId": "664af8d0c002126e0518a9d1",
+        "createdTimeMs": 1726169745557,
+        "dmas": [],
+        "selectedTags": [],
+        "telephoneNum": "*****8445",
+        "interestedProducts": [],
+        "address": {
+            "addressLine1": "gachibowil telengana",
+            "city": "hyderabad",
+            "state": "Telangana",
+            "longitude": 58.3829,
+            "latitude": 23.588,
+            "postCode": "500032",
+            "country": "India",
+            "type": "PRIMARY"
+        },
+        "active": true,
+        "currenciesSupported": [
+            "INR"
+        ],
+        "userName": "tet",
+        "firstName": "tet",
+        "lastName": "tet@gmail.com",
+        "parentTenantId": "",
+        "product": {},
+        "platformsIds": [
+            "66e32b51b1dbc9702f4048a6"
+        ],
+        "userType": "TENANT",
+        "platformDetails": {
+            "664afc3caf2dfa4e7eeda5db": [
+                "AP"
+            ],
+            "66e2e76d83d08979e96cee34": [
+                "CP"
+            ],
+            "66e32b51b1dbc9702f4048a6": [
+                "CP"
+            ],
+            "66e32a6e83d08979e96cee35": [
+                "CP"
+            ]
+        },
+        "defaultCurrency": "SAR"
+    },
+    {
+        "id": "dd8898a9-c79c-454e-9ea1-cc39a2723e22",
+        "countryCode": "500032",
+        "description": "National Computer Services (NCS)",
+        "name": "National Computer Services (NCS)",
+        "emailId": "A*****@gmail.com",
+        "organisationId": "664af8d0c002126e0518a9d1",
+        "createdTimeMs": 1726169806705,
+        "dmas": [],
+        "selectedTags": [],
+        "telephoneNum": "******4498",
+        "interestedProducts": [],
+        "address": {
+            "addressLine1": "gachibowil telengana",
+            "city": "hyderabad",
+            "state": "Telangana",
+            "longitude": 56.7293,
+            "latitude": 24.3429,
+            "postCode": "500032",
+            "country": "India",
+            "type": "PRIMARY"
+        },
+        "active": true,
+        "currenciesSupported": [
+            "INR"
+        ],
+        "userName": "AIH",
+        "firstName": "AIH",
+        "lastName": "AIH@gmail.com",
+        "parentTenantId": "",
+        "product": {},
+        "platformsIds": [
+            "66e32b51b1dbc9702f4048a6"
+        ],
+        "userType": "TENANT",
+        "platformDetails": {
+            "664afc3caf2dfa4e7eeda5db": [
+                "AP"
+            ],
+            "66e2e76d83d08979e96cee34": [
+                "TP"
+            ],
+            "66e32b51b1dbc9702f4048a6": [
+                "TP"
+            ],
+            "66e32a6e83d08979e96cee35": [
+                "TP"
+            ]
+        },
+        "defaultCurrency": "SAR"
+    },
+    {
+        "id": "fc9445e0-2200-4f7b-aa6f-e85507333c9f",
+        "countryCode": "500032",
+        "description": "Arabian Advertisement Co. (AlArabia)",
+        "name": "Arabian Advertisement Co. (AlArabia)",
+        "emailId": "o*****@gmail.com",
+        "organisationId": "664af8d0c002126e0518a9d1",
+        "createdTimeMs": 1726169849625,
+        "dmas": [],
+        "selectedTags": [],
+        "telephoneNum": "******3815",
+        "interestedProducts": [],
+        "address": {
+            "addressLine1": "gachibowil telengana",
+            "city": "hyderabad",
+            "state": "Telangana",
+            "longitude": 56.7293,
+            "latitude": 24.3429,
+            "postCode": "500032",
+            "country": "India",
+            "type": "PRIMARY"
+        },
+        "active": true,
+        "currenciesSupported": [
+            "INR"
+        ],
+        "userName": "ofo",
+        "firstName": "ofo",
+        "lastName": "ofo@gmail.com",
+        "parentTenantId": "",
+        "product": {},
+        "platformsIds": [
+            "66e32b51b1dbc9702f4048a6"
+        ],
+        "userType": "TENANT",
+        "platformDetails": {
+            "664afc3caf2dfa4e7eeda5db": [
+                "AP"
+            ],
+            "66e2e76d83d08979e96cee34": [
+                "AP"
+            ],
+            "66e32b51b1dbc9702f4048a6": [
+                "AP"
+            ],
+            "66e32a6e83d08979e96cee35": [
+                "AP"
+            ]
+        },
+        "defaultCurrency": "SAR"
+    },
+    {
+        "id": "3093a042-40ae-4fac-94db-810734002cb7",
+        "countryCode": "500032",
+        "description": "OmanTel",
+        "name": "OmanTel",
+        "emailId": "su*****qa@gmail.com",
+        "organisationId": "664af8d0c002126e0518a9d1",
+        "createdTimeMs": 1726169896199,
+        "dmas": [],
+        "selectedTags": [],
+        "telephoneNum": "******0946",
+        "interestedProducts": [],
+        "address": {
+            "addressLine1": "gachibowil telengana",
+            "city": "hyderabad",
+            "state": "Telangana",
+            "longitude": 56.7293,
+            "latitude": 24.3429,
+            "postCode": "500032",
+            "country": "India",
+            "type": "PRIMARY"
+        },
+        "active": true,
+        "currenciesSupported": [
+            "INR"
+        ],
+        "userName": "sultanqa",
+        "firstName": "sultanqa",
+        "lastName": "sultanqa@gmail.com",
+        "parentTenantId": "",
+        "product": {},
+        "platformsIds": [
+            "66e32b51b1dbc9702f4048a6"
+        ],
+        "userType": "TENANT",
+        "platformDetails": {
+            "664afc3caf2dfa4e7eeda5db": [
+                "AP"
+            ],
+            "66e2e76d83d08979e96cee34": [
+                "TP"
+            ],
+            "66e32b51b1dbc9702f4048a6": [
+                "TP"
+            ],
+            "66e32a6e83d08979e96cee35": [
+                "TP"
+            ]
+        },
+        "defaultCurrency": "SAR"
+    },
+    {
+        "id": "ad341833-61b0-4fda-89e2-fff587181f12",
+        "countryCode": "500032",
+        "description": "Marsooq Areej",
+        "name": "Marsooq Areej",
+        "emailId": "m*****@gmail.com",
+        "organisationId": "664af8d0c002126e0518a9d1",
+        "createdTimeMs": 1726169986497,
+        "dmas": [],
+        "selectedTags": [],
+        "telephoneNum": "*****7297",
+        "interestedProducts": [],
+        "address": {
+            "addressLine1": "gachibowil telengana",
+            "city": "hyderabad",
+            "state": "Telangana",
+            "longitude": 57.5333,
+            "latitude": 22.9333,
+            "postCode": "500032",
+            "country": "India",
+            "type": "PRIMARY"
+        },
+        "active": true,
+        "currenciesSupported": [
+            "INR"
+        ],
+        "userName": "mmg",
+        "firstName": "mmg",
+        "lastName": "mmg@gmail.com",
+        "parentTenantId": "",
+        "product": {},
+        "platformsIds": [
+            "66e32b51b1dbc9702f4048a6"
+        ],
+        "userType": "TENANT",
+        "platformDetails": {
+            "664afc3caf2dfa4e7eeda5db": [
+                "AP"
+            ],
+            "66e2e76d83d08979e96cee34": [
+                "XP"
+            ],
+            "66e32b51b1dbc9702f4048a6": [
+                "XP"
+            ],
+            "66e32a6e83d08979e96cee35": [
+                "XP"
+            ]
+        },
+        "defaultCurrency": "SAR"
+    },
+    {
+        "id": "db1ce279-482d-4b2b-8ffc-c64844cedca2",
+        "countryCode": "500032",
+        "description": "Ooredoo",
+        "name": "Ooredoo",
+        "emailId": "o*****@gmail.com",
+        "organisationId": "664af8d0c002126e0518a9d1",
+        "createdTimeMs": 1726169938537,
+        "dmas": [],
+        "selectedTags": [],
+        "telephoneNum": "******9912",
+        "interestedProducts": [],
+        "address": {
+            "addressLine1": "gachibowil telengana",
+            "city": "hyderabad",
+            "state": "Telangana",
+            "longitude": 57.5333,
+            "latitude": 22.9333,
+            "postCode": "500032",
+            "country": "India",
+            "type": "PRIMARY"
+        },
+        "active": true,
+        "currenciesSupported": [
+            "INR"
+        ],
+        "userName": "ofn",
+        "firstName": "ofn",
+        "lastName": "ofn@gmail.com",
+        "parentTenantId": "",
+        "product": {},
+        "platformsIds": [
+            "66e32b51b1dbc9702f4048a6"
+        ],
+        "userType": "TENANT",
+        "platformDetails": {
+            "664afc3caf2dfa4e7eeda5db": [
+                "AP"
+            ],
+            "66e2e76d83d08979e96cee34": [
+                "IP"
+            ],
+            "66e32b51b1dbc9702f4048a6": [
+                "IP"
+            ],
+            "66e32a6e83d08979e96cee35": [
+                "IP"
+            ]
+        },
+        "defaultCurrency": "SAR"
+    },
+    {
+        "id": "e436b9ad-374f-49b3-8803-18e6c0da14bc",
+        "countryCode": "500032",
+        "description": "Al Manhal",
+        "name": "Al Manhal",
+        "emailId": "ma*****al@*mail.com",
+        "organisationId": "664af8d0c002126e0518a9d1",
+        "updatedTimeMs": 1726232484641,
+        "createdTimeMs": 1726169465426,
+        "dmas": [],
+        "selectedTags": [],
+        "telephoneNum": "******7954",
+        "interestedProducts": [],
+        "address": {
+            "addressLine1": "gachibowil telengana",
+            "city": "hyderabad",
+            "state": "Telangana",
+            "longitude": 57.5333,
+            "latitude": 22.9333,
+            "postCode": "500032",
+            "country": "India",
+            "type": "PRIMARY"
+        },
+        "active": true,
+        "currenciesSupported": [
+            "INR",
+            "SAR"
+        ],
+        "userName": "manhal",
+        "firstName": "manhal",
+        "lastName": "manhal@gmail.com",
+        "parentTenantId": "",
+        "product": {},
+        "platformsIds": [
+            "66e32b51b1dbc9702f4048a6"
+        ],
+        "userType": "TENANT",
+        "platformDetails": {
+            "66e32b51b1dbc9702f4048a6": [
+                "IP"
+            ],
+            "66e32a6e83d08979e96cee35": [
+                "IP"
+            ],
+            "66e2e76d83d08979e96cee34": [
+                "IP"
+            ],
+            "664afc3caf2dfa4e7eeda5db": [
+                "AP"
+            ]
+        },
+        "defaultCurrency": "SAR"
+    }
+]
